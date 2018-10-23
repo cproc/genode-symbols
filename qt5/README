@@ -1,0 +1,4 @@
+To create the Qt5 symbol files, copy the tools into the top-level Genode source
+directory and run './create_qt5_symbol_files'.
+
+Note: some symbols of type "W" need to be added manually.
