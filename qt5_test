@@ -335,6 +335,51 @@ _ZNK9QTestData4dataEi T
 _ZNK9QTestData6parentEv T
 _ZNK9QTestData7dataTagEv T
 _ZNK9QTestData9dataCountEv T
+_ZTI12QTestElement D 24
+_ZTI14QTestEventLoop D 24
+_ZTI14QXmlTestLogger D 24
+_ZTI15QBenchmarkEvent D 56
+_ZTI15QTeamCityLogger D 24
+_ZTI16QPlainTestLogger D 24
+_ZTI16QXunitTestLogger D 24
+_ZTI19QAbstractTestLogger D 16
+_ZTI19QCsvBenchmarkLogger D 24
+_ZTI21QTestElementAttribute D 24
+_ZTI22QBenchmarkMeasurerBase D 16
+_ZTI22QBenchmarkTickMeasurer D 24
+_ZTI22QBenchmarkTimeMeasurer D 24
+_ZTIN5QTest8WatchDogE D 24
+_ZTS12QTestElement R 15
+_ZTS14QTestEventLoop R 17
+_ZTS14QXmlTestLogger R 17
+_ZTS15QBenchmarkEvent R 18
+_ZTS15QTeamCityLogger R 18
+_ZTS16QPlainTestLogger R 19
+_ZTS16QXunitTestLogger R 19
+_ZTS19QAbstractTestLogger R 22
+_ZTS19QCsvBenchmarkLogger R 22
+_ZTS21QTestElementAttribute R 24
+_ZTS22QBenchmarkMeasurerBase D 25
+_ZTS22QBenchmarkTickMeasurer D 25
+_ZTS22QBenchmarkTimeMeasurer R 25
+_ZTSN5QTest8WatchDogE D 18
+_ZTV12QTestElement D 32
+_ZTV14QTestEventLoop D 120
+_ZTV14QXmlTestLogger D 88
+_ZTV15QBenchmarkEvent D 160
+_ZTV15QTeamCityLogger D 88
+_ZTV16QPlainTestLogger D 88
+_ZTV16QXunitTestLogger D 88
+_ZTV19QAbstractTestLogger D 88
+_ZTV19QCsvBenchmarkLogger D 88
+_ZTV21QTestElementAttribute D 32
+_ZTV22QBenchmarkMeasurerBase D 112
+_ZTV22QBenchmarkTickMeasurer D 112
+_ZTV22QBenchmarkTimeMeasurer D 112
+_ZTVN5QTest8WatchDogE D 128
+_ZThn4_N15QBenchmarkEvent17nativeEventFilterERK10QByteArrayPvPl T
+_ZThn4_N15QBenchmarkEventD0Ev T
+_ZThn4_N15QBenchmarkEventD1Ev T
 _ZThn8_N15QBenchmarkEvent17nativeEventFilterERK10QByteArrayPvPl T
 _ZThn8_N15QBenchmarkEventD0Ev T
 _ZThn8_N15QBenchmarkEventD1Ev T

@@ -5063,6 +5063,7 @@ _ZN7QMatrixC2Ev T
 _ZN7QMatrixaSERKS_ T
 _ZN7QMatrixmLERKS_ T
 _ZN7QPixmap10grabWidgetEP7QObjectRK5QRect T
+_ZN7QPixmap10grabWindowEjiiii T
 _ZN7QPixmap10grabWindowEyiiii T
 _ZN7QPixmap10trueMatrixERK10QTransformii T
 _ZN7QPixmap10trueMatrixERK7QMatrixii T
@@ -5128,6 +5129,7 @@ _ZN7QRegionmIERKS_ T
 _ZN7QRegionoRERKS_ T
 _ZN7QRegionpLERK5QRect T
 _ZN7QRegionpLERKS_ T
+_ZN7QScreen10grabWindowEjiiii T
 _ZN7QScreen10grabWindowEyiiii T
 _ZN7QScreen11qt_metacallEN11QMetaObject4CallEiPPv T
 _ZN7QScreen11qt_metacastEPKc T
@@ -5231,6 +5233,7 @@ _ZN7QWindow8setTitleERK7QString T
 _ZN7QWindow8setWidthEi T
 _ZN7QWindow8xChangedEi T
 _ZN7QWindow8yChangedEi T
+_ZN7QWindow9fromWinIdEj T
 _ZN7QWindow9fromWinIdEy T
 _ZN7QWindow9hideEventEP10QHideEvent T
 _ZN7QWindow9moveEventEP10QMoveEvent T
@@ -7720,6 +7723,911 @@ _ZNK9QVector4D16toVector2DAffineEv T
 _ZNK9QVector4D16toVector3DAffineEv T
 _ZNK9QVector4D6lengthEv T
 _ZNK9QVector4Dcv8QVariantEv T
+_ZTI10QBasicDrag D 56
+_ZTI10QBlittable D 16
+_ZTI10QClipboard D 24
+_ZTI10QDropEvent D 24
+_ZTI10QFontCache D 24
+_ZTI10QHelpEvent D 24
+_ZTI10QHideEvent D 24
+_ZTI10QKeyMapper D 24
+_ZTI10QMoveEvent D 24
+_ZTI10QPdfEngine D 24
+_ZTI10QPdfWriter D 56
+_ZTI10QShowEvent D 24
+_ZTI10QTextFrame D 24
+_ZTI10QTextTable D 24
+_ZTI10QValidator D 24
+_ZTI11PixmapEntry D 24
+_ZTI11QBmpHandler D 24
+_ZTI11QCloseEvent D 24
+_ZTI11QEnterEvent D 24
+_ZTI11QFakeDevice D 24
+_ZTI11QFocusEvent D 24
+_ZTI11QFontEngine D 16
+_ZTI11QHoverEvent D 24
+_ZTI11QIconEngine D 16
+_ZTI11QInputEvent D 24
+_ZTI11QMouseEvent D 24
+_ZTI11QPaintEvent D 24
+_ZTI11QPngHandler D 24
+_ZTI11QPpmHandler D 24
+_ZTI11QSharedData D 16
+_ZTI11QSimpleDrag D 24
+_ZTI11QStrokerOps D 16
+_ZTI11QStyleHints D 24
+_ZTI11QTextObject D 24
+_ZTI11QTouchEvent D 24
+_ZTI11QWheelEvent D 24
+_ZTI11QXbmHandler D 24
+_ZTI11QXpmHandler D 24
+_ZTI12QActionEvent D 24
+_ZTI12QDashStroker D 24
+_ZTI12QDragManager D 24
+_ZTI12QDragPrivate D 24
+_ZTI12QExposeEvent D 24
+_ZTI12QInputMethod D 24
+_ZTI12QPaintDevice D 16
+_ZTI12QPaintEngine D 16
+_ZTI12QResizeEvent D 24
+_ZTI12QScrollEvent D 24
+_ZTI12QTabletEvent D 24
+_ZTI13QIntValidator D 24
+_ZTI13QMoviePrivate D 24
+_ZTI13QOpenGLShader D 24
+_ZTI13QOpenGLWindow D 24
+_ZTI13QPainterState D 40
+_ZTI13QPlatformDrag D 16
+_ZTI13QPlatformMenu D 24
+_ZTI13QRasterWindow D 24
+_ZTI13QStandardItem D 16
+_ZTI13QTextDocument D 24
+_ZTI13ScalableEntry D 24
+_ZTI14QDragMoveEvent D 24
+_ZTI14QFileOpenEvent D 24
+_ZTI14QFontEngineBox D 24
+_ZTI14QGenericPlugin D 24
+_ZTI14QIconDragEvent D 24
+_ZTI14QImageIOPlugin D 24
+_ZTI14QOpenGLContext D 24
+_ZTI14QPaintEngineEx D 24
+_ZTI14QPlatformTheme D 16
+_ZTI14QScreenPrivate D 24
+_ZTI14QShortcutEvent D 24
+_ZTI14QTextFrameData D 24
+_ZTI14QTextTableData D 24
+_ZTI14QWindowPrivate D 24
+_ZTI15QDragEnterEvent D 24
+_ZTI15QDragLeaveEvent D 24
+_ZTI15QFontEngineQPF2 D 24
+_ZTI15QGridLayoutItem D 16
+_ZTI15QGuiApplication D 24
+_ZTI15QImageIOHandler D 16
+_ZTI15QOutputStrategy D 16
+_ZTI15QPlatformCursor D 24
+_ZTI15QPlatformPixmap D 16
+_ZTI15QPlatformScreen D 16
+_ZTI15QPlatformWindow D 24
+_ZTI15QStatusTipEvent D 24
+_ZTI15QTestFontEngine D 24
+_ZTI15QTextBlockGroup D 24
+_ZTI16QDoubleValidator D 24
+_ZTI16QFontEngineMulti D 24
+_ZTI16QPlatformMenuBar D 24
+_ZTI16QPlatformSurface D 16
+_ZTI16QRegExpValidator D 24
+_ZTI16QTextListPrivate D 24
+_ZTI17QContextMenuEvent D 24
+_ZTI17QIconEnginePlugin D 24
+_ZTI17QIconLoaderEngine D 24
+_ZTI17QInputMethodEvent D 24
+_ZTI17QInternalMimeData D 24
+_ZTI17QKeyMapperPrivate D 24
+_ZTI17QOffscreenSurface D 56
+_ZTI17QOpenGLTimerQuery D 24
+_ZTI17QPagedPaintDevice D 24
+_ZTI17QPaintEngineState D 16
+_ZTI17QPdfEnginePrivate D 24
+_ZTI17QPdfWriterPrivate D 24
+_ZTI17QPixmapCacheEntry D 24
+_ZTI17QPixmapIconEngine D 24
+_ZTI17QPlatformMenuItem D 24
+_ZTI17QPlatformServices D 16
+_ZTI17QTextFramePrivate D 24
+_ZTI17QTextImageHandler D 56
+_ZTI17QTextTablePrivate D 24
+_ZTI17QValidatorPrivate D 24
+_ZTI18QOpenGLDebugLogger D 24
+_ZTI18QOpenGLPaintDevice D 24
+_ZTI18QOpenGLTimeMonitor D 24
+_ZTI18QPaintDeviceWindow D 56
+_ZTI18QPlatformClipboard D 16
+_ZTI18QRasterPaintEngine D 24
+_ZTI18QStandardItemModel D 24
+_ZTI18QStyleHintsPrivate D 24
+_ZTI18QSyntaxHighlighter D 24
+_ZTI18QTextBlockUserData D 16
+_ZTI18QTextObjectPrivate D 24
+_ZTI18QTextureGlyphCache D 24
+_ZTI18QXmlStreamStrategy D 24
+_ZTI18QZipStreamStrategy D 24
+_ZTI19QBlitterPaintEngine D 24
+_ZTI19QInputDeviceManager D 24
+_ZTI19QInputMethodPrivate D 24
+_ZTI19QNativeGestureEvent D 24
+_ZTI19QOpenGLContextGroup D 24
+_ZTI19QOpenGLGlyphTexture D 24
+_ZTI19QOpenGLTextureCache D 24
+_ZTI19QPaintEnginePrivate D 16
+_ZTI19QPicturePaintEngine D 24
+_ZTI19QScrollPrepareEvent D 24
+_ZTI19QShapedPixmapWindow D 24
+_ZTI19QStaticTextUserData D 16
+_ZTI19QTextDocumentLayout D 24
+_ZTI19QToolBarChangeEvent D 24
+_ZTI20QOpenGLFunctions_1_0 D 24
+_ZTI20QOpenGLFunctions_1_1 D 24
+_ZTI20QOpenGLFunctions_1_2 D 24
+_ZTI20QOpenGLFunctions_1_3 D 24
+_ZTI20QOpenGLFunctions_1_4 D 24
+_ZTI20QOpenGLFunctions_1_5 D 24
+_ZTI20QOpenGLFunctions_2_0 D 24
+_ZTI20QOpenGLFunctions_2_1 D 24
+_ZTI20QOpenGLFunctions_3_0 D 24
+_ZTI20QOpenGLFunctions_3_1 D 24
+_ZTI20QOpenGLShaderPrivate D 24
+_ZTI20QOpenGLShaderProgram D 24
+_ZTI20QOpenGLWindowPrivate D 24
+_ZTI20QPictureFormatPlugin D 24
+_ZTI20QPlatformIntegration D 16
+_ZTI20QPlatformTextureList D 24
+_ZTI20QPlatformThemePlugin D 24
+_ZTI20QRasterWindowPrivate D 24
+_ZTI20QStandardItemPrivate D 16
+_ZTI20QTextDocumentPrivate D 24
+_ZTI20QTextFrameLayoutData D 16
+_ZTI20QTextObjectInterface D 16
+_ZTI21QEmulationPaintEngine D 24
+_ZTI21QFontEngineGlyphCache D 40
+_ZTI21QOpenGL2GradientCache D 24
+_ZTI21QOpenGL2PaintEngineEx D 24
+_ZTI21QOpenGLContextPrivate D 24
+_ZTI21QOpenGLSharedResource D 16
+_ZTI21QPaintEngineExPrivate D 24
+_ZTI21QPlatformBackingStore D 16
+_ZTI21QPlatformDialogHelper D 24
+_ZTI21QPlatformFontDatabase D 16
+_ZTI21QPlatformInputContext D 24
+_ZTI21QPlatformSurfaceEvent D 24
+_ZTI21QPlatformThemePrivate D 16
+_ZTI21QRasterPlatformPixmap D 24
+_ZTI22QGuiApplicationPrivate D 24
+_ZTI22QIconLoaderEngineEntry D 16
+_ZTI22QImageIOHandlerPrivate D 16
+_ZTI22QInputMethodQueryEvent D 24
+_ZTI22QPlatformOpenGLContext D 16
+_ZTI22QTextBlockGroupPrivate D 24
+_ZTI22QTextHtmlStyleSelector D 24
+_ZTI22QWhatsThisClickedEvent D 24
+_ZTI23QDoubleValidatorPrivate D 24
+_ZTI23QImageTextureGlyphCache D 24
+_ZTI23QOpenGLFunctionsPrivate D 16
+_ZTI23QOpenUrlHandlerRegistry D 24
+_ZTI23QPlatformGraphicsBuffer D 24
+_ZTI23QPlatformSystemTrayIcon D 24
+_ZTI23QRasterPaintEngineState D 24
+_ZTI23QWindowStateChangeEvent D 24
+_ZTI24QAbstractOpenGLFunctions D 16
+_ZTI24QBlittablePlatformPixmap D 24
+_ZTI24QOffscreenSurfacePrivate D 24
+_ZTI24QOpenGL2PaintEngineState D 24
+_ZTI24QOpenGLCustomShaderStage D 16
+_ZTI24QOpenGLExtensionsPrivate D 24
+_ZTI24QOpenGLFramebufferObject D 16
+_ZTI24QOpenGLTextureGlyphCache D 24
+_ZTI24QOpenGLTimerQueryPrivate D 24
+_ZTI24QOpenGLVertexArrayObject D 24
+_ZTI24QOpenGLWindowPaintDevice D 24
+_ZTI24QPagedPaintDevicePrivate D 16
+_ZTI24QPlatformNativeInterface D 24
+_ZTI25QOpenGLDebugLoggerPrivate D 24
+_ZTI25QOpenGLFunctionsPrivateEx D 56
+_ZTI25QOpenGLFunctions_3_2_Core D 24
+_ZTI25QOpenGLFunctions_3_3_Core D 24
+_ZTI25QOpenGLFunctions_4_0_Core D 24
+_ZTI25QOpenGLFunctions_4_1_Core D 24
+_ZTI25QOpenGLFunctions_4_2_Core D 24
+_ZTI25QOpenGLFunctions_4_3_Core D 24
+_ZTI25QOpenGLFunctions_4_4_Core D 24
+_ZTI25QOpenGLFunctions_4_5_Core D 24
+_ZTI25QOpenGLPaintDevicePrivate D 16
+_ZTI25QOpenGLTimeMonitorPrivate D 24
+_ZTI25QPaintDeviceWindowPrivate D 24
+_ZTI25QPlatformFileDialogHelper D 24
+_ZTI25QPlatformFontDialogHelper D 24
+_ZTI25QPlatformOffscreenSurface D 24
+_ZTI25QRasterPaintEnginePrivate D 24
+_ZTI25QStandardItemModelPrivate D 24
+_ZTI25QSyntaxHighlighterPrivate D 24
+_ZTI25QWindowSystemEventHandler D 16
+_ZTI26QBlitterPaintEnginePrivate D 24
+_ZTI26QInputDeviceManagerPrivate D 24
+_ZTI26QOpenGLContextGroupPrivate D 24
+_ZTI26QOpenGLEngineShaderManager D 24
+_ZTI26QOpenGLSharedResourceGuard D 24
+_ZTI26QPicturePaintEnginePrivate D 24
+_ZTI26QPlatformColorDialogHelper D 24
+_ZTI26QPlatformIntegrationPlugin D 24
+_ZTI26QTextDocumentLayoutPrivate D 24
+_ZTI27QAbstractTextDocumentLayout D 24
+_ZTI27QOpenGLShaderProgramPrivate D 24
+_ZTI27QPdfPagedPaintDevicePrivate D 24
+_ZTI27QPlatformInputContextPlugin D 24
+_ZTI27QPlatformTextureListPrivate D 24
+_ZTI27QRegularExpressionValidator D 24
+_ZTI28QApplicationStateChangeEvent D 24
+_ZTI28QOpenGL2PaintEngineExPrivate D 24
+_ZTI28QOpenGLExtraFunctionsPrivate D 24
+_ZTI28QPlatformInputContextPrivate D 24
+_ZTI28QPlatformMessageDialogHelper D 24
+_ZTI28QPlatformSharedGraphicsCache D 24
+_ZTI29QScreenOrientationChangeEvent D 24
+_ZTI31QOpenGLVertexArrayObjectPrivate D 24
+_ZTI34QAbstractTextDocumentLayoutPrivate D 24
+_ZTI34QOpenGLEngineSharedShadersResource D 24
+_ZTI34QOpenGLFunctions_3_2_Compatibility D 24
+_ZTI34QOpenGLFunctions_3_3_Compatibility D 24
+_ZTI34QOpenGLFunctions_4_0_Compatibility D 24
+_ZTI34QOpenGLFunctions_4_1_Compatibility D 24
+_ZTI34QOpenGLFunctions_4_2_Compatibility D 24
+_ZTI34QOpenGLFunctions_4_3_Compatibility D 24
+_ZTI34QOpenGLFunctions_4_4_Compatibility D 24
+_ZTI34QOpenGLFunctions_4_5_Compatibility D 24
+_ZTI34QRegularExpressionValidatorPrivate D 24
+_ZTI5QDrag D 24
+_ZTI6QImage D 24
+_ZTI6QMovie D 24
+_ZTI7QBitmap D 24
+_ZTI7QPixmap D 24
+_ZTI7QScreen D 24
+_ZTI7QWindow D 56
+_ZTI8QPMCache D 56
+_ZTI8QPicture D 24
+_ZTI8QStroker D 24
+_ZTI8QSurface D 16
+_ZTI9QKeyEvent D 24
+_ZTI9QTextList D 24
+_ZTIN29QWindowSystemInterfacePrivate10CloseEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate10EnterEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate10InputEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate10LeaveEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate10MouseEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate10TouchEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate10WheelEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate11ExposeEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate11TabletEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate12GestureEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate13FileOpenEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate16ContextMenuEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate16FlushEventsEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate16ThemeChangeEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate17WindowSystemEventE D 16
+_ZTIN29QWindowSystemInterfacePrivate18PlatformPanelEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate19GeometryChangeEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate19ScreenGeometryEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate20ActivatedWindowEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate22ScreenOrientationEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate23WindowStateChangedEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate24WindowScreenChangedEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate25TabletEnterProximityEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate8KeyEventE D 24
+_ZTIN29QWindowSystemInterfacePrivate9UserEventE D 24
+_ZTIN4QCss13StyleSelectorE D 16
+_ZTS10QBasicDrag R 13
+_ZTS10QBlittable R 13
+_ZTS10QClipboard R 13
+_ZTS10QDropEvent R 13
+_ZTS10QFontCache R 13
+_ZTS10QHelpEvent R 13
+_ZTS10QHideEvent R 13
+_ZTS10QKeyMapper R 13
+_ZTS10QMoveEvent R 13
+_ZTS10QPdfEngine R 13
+_ZTS10QPdfWriter R 13
+_ZTS10QShowEvent R 13
+_ZTS10QTextFrame R 13
+_ZTS10QTextTable R 13
+_ZTS10QValidator R 13
+_ZTS11PixmapEntry R 14
+_ZTS11QBmpHandler R 14
+_ZTS11QCloseEvent R 14
+_ZTS11QEnterEvent R 14
+_ZTS11QFakeDevice D 14
+_ZTS11QFocusEvent R 14
+_ZTS11QFontEngine R 14
+_ZTS11QHoverEvent R 14
+_ZTS11QIconEngine R 14
+_ZTS11QInputEvent R 14
+_ZTS11QMouseEvent R 14
+_ZTS11QPaintEvent R 14
+_ZTS11QPngHandler R 14
+_ZTS11QPpmHandler R 14
+_ZTS11QSharedData D 14
+_ZTS11QSimpleDrag R 14
+_ZTS11QStrokerOps R 14
+_ZTS11QStyleHints R 14
+_ZTS11QTextObject R 14
+_ZTS11QTouchEvent R 14
+_ZTS11QWheelEvent R 14
+_ZTS11QXbmHandler R 14
+_ZTS11QXpmHandler R 14
+_ZTS12QActionEvent R 15
+_ZTS12QDashStroker R 15
+_ZTS12QDragManager R 15
+_ZTS12QDragPrivate D 15
+_ZTS12QExposeEvent R 15
+_ZTS12QInputMethod R 15
+_ZTS12QPaintDevice R 15
+_ZTS12QPaintEngine R 15
+_ZTS12QResizeEvent R 15
+_ZTS12QScrollEvent R 15
+_ZTS12QTabletEvent R 15
+_ZTS13QIntValidator R 16
+_ZTS13QMoviePrivate D 16
+_ZTS13QOpenGLShader R 16
+_ZTS13QOpenGLWindow R 16
+_ZTS13QPainterState R 16
+_ZTS13QPlatformDrag R 16
+_ZTS13QPlatformMenu R 16
+_ZTS13QRasterWindow R 16
+_ZTS13QStandardItem R 16
+_ZTS13QTextDocument R 16
+_ZTS13ScalableEntry R 16
+_ZTS14QDragMoveEvent R 17
+_ZTS14QFileOpenEvent R 17
+_ZTS14QFontEngineBox R 17
+_ZTS14QGenericPlugin R 17
+_ZTS14QIconDragEvent R 17
+_ZTS14QImageIOPlugin R 17
+_ZTS14QOpenGLContext R 17
+_ZTS14QPaintEngineEx R 17
+_ZTS14QPlatformTheme R 17
+_ZTS14QScreenPrivate D 17
+_ZTS14QShortcutEvent R 17
+_ZTS14QTextFrameData D 17
+_ZTS14QTextTableData D 17
+_ZTS14QWindowPrivate R 17
+_ZTS15QDragEnterEvent R 18
+_ZTS15QDragLeaveEvent R 18
+_ZTS15QFontEngineQPF2 R 18
+_ZTS15QGridLayoutItem R 18
+_ZTS15QGuiApplication R 18
+_ZTS15QImageIOHandler R 18
+_ZTS15QOutputStrategy D 18
+_ZTS15QPlatformCursor R 18
+_ZTS15QPlatformPixmap R 18
+_ZTS15QPlatformScreen R 18
+_ZTS15QPlatformWindow R 18
+_ZTS15QStatusTipEvent R 18
+_ZTS15QTestFontEngine D 18
+_ZTS15QTextBlockGroup R 18
+_ZTS16QDoubleValidator R 19
+_ZTS16QFontEngineMulti R 19
+_ZTS16QPlatformMenuBar R 19
+_ZTS16QPlatformSurface R 19
+_ZTS16QRegExpValidator R 19
+_ZTS16QTextListPrivate D 19
+_ZTS17QContextMenuEvent R 20
+_ZTS17QIconEnginePlugin R 20
+_ZTS17QIconLoaderEngine R 20
+_ZTS17QInputMethodEvent R 20
+_ZTS17QInternalMimeData R 20
+_ZTS17QKeyMapperPrivate R 20
+_ZTS17QOffscreenSurface R 20
+_ZTS17QOpenGLTimerQuery R 20
+_ZTS17QPagedPaintDevice R 20
+_ZTS17QPaintEngineState D 20
+_ZTS17QPdfEnginePrivate R 20
+_ZTS17QPdfWriterPrivate D 20
+_ZTS17QPixmapCacheEntry R 20
+_ZTS17QPixmapIconEngine R 20
+_ZTS17QPlatformMenuItem R 20
+_ZTS17QPlatformServices R 20
+_ZTS17QTextFramePrivate R 20
+_ZTS17QTextImageHandler R 20
+_ZTS17QTextTablePrivate R 20
+_ZTS17QValidatorPrivate D 20
+_ZTS18QOpenGLDebugLogger R 21
+_ZTS18QOpenGLPaintDevice R 21
+_ZTS18QOpenGLTimeMonitor R 21
+_ZTS18QPaintDeviceWindow R 21
+_ZTS18QPlatformClipboard R 21
+_ZTS18QRasterPaintEngine R 21
+_ZTS18QStandardItemModel R 21
+_ZTS18QStyleHintsPrivate D 21
+_ZTS18QSyntaxHighlighter R 21
+_ZTS18QTextBlockUserData R 21
+_ZTS18QTextObjectPrivate D 21
+_ZTS18QTextureGlyphCache R 21
+_ZTS18QXmlStreamStrategy D 21
+_ZTS18QZipStreamStrategy D 21
+_ZTS19QBlitterPaintEngine R 22
+_ZTS19QInputDeviceManager R 22
+_ZTS19QInputMethodPrivate D 22
+_ZTS19QNativeGestureEvent D 22
+_ZTS19QOpenGLContextGroup R 22
+_ZTS19QOpenGLGlyphTexture D 22
+_ZTS19QOpenGLTextureCache R 22
+_ZTS19QPaintEnginePrivate R 22
+_ZTS19QPicturePaintEngine R 22
+_ZTS19QScrollPrepareEvent R 22
+_ZTS19QShapedPixmapWindow R 22
+_ZTS19QStaticTextUserData R 22
+_ZTS19QTextDocumentLayout R 22
+_ZTS19QToolBarChangeEvent R 22
+_ZTS20QOpenGLFunctions_1_0 R 23
+_ZTS20QOpenGLFunctions_1_1 R 23
+_ZTS20QOpenGLFunctions_1_2 R 23
+_ZTS20QOpenGLFunctions_1_3 R 23
+_ZTS20QOpenGLFunctions_1_4 R 23
+_ZTS20QOpenGLFunctions_1_5 R 23
+_ZTS20QOpenGLFunctions_2_0 R 23
+_ZTS20QOpenGLFunctions_2_1 R 23
+_ZTS20QOpenGLFunctions_3_0 R 23
+_ZTS20QOpenGLFunctions_3_1 R 23
+_ZTS20QOpenGLShaderPrivate R 23
+_ZTS20QOpenGLShaderProgram R 23
+_ZTS20QOpenGLWindowPrivate R 23
+_ZTS20QPictureFormatPlugin R 23
+_ZTS20QPlatformIntegration R 23
+_ZTS20QPlatformTextureList R 23
+_ZTS20QPlatformThemePlugin R 23
+_ZTS20QRasterWindowPrivate D 23
+_ZTS20QStandardItemPrivate R 23
+_ZTS20QTextDocumentPrivate R 23
+_ZTS20QTextFrameLayoutData R 23
+_ZTS20QTextObjectInterface R 23
+_ZTS21QEmulationPaintEngine R 24
+_ZTS21QFontEngineGlyphCache R 24
+_ZTS21QOpenGL2GradientCache R 24
+_ZTS21QOpenGL2PaintEngineEx R 24
+_ZTS21QOpenGLContextPrivate D 24
+_ZTS21QOpenGLSharedResource D 24
+_ZTS21QPaintEngineExPrivate R 24
+_ZTS21QPlatformBackingStore R 24
+_ZTS21QPlatformDialogHelper R 24
+_ZTS21QPlatformFontDatabase R 24
+_ZTS21QPlatformInputContext R 24
+_ZTS21QPlatformSurfaceEvent R 24
+_ZTS21QPlatformThemePrivate R 24
+_ZTS21QRasterPlatformPixmap R 24
+_ZTS22QGuiApplicationPrivate R 25
+_ZTS22QIconLoaderEngineEntry D 25
+_ZTS22QImageIOHandlerPrivate R 25
+_ZTS22QInputMethodQueryEvent R 25
+_ZTS22QPlatformOpenGLContext R 25
+_ZTS22QTextBlockGroupPrivate D 25
+_ZTS22QTextHtmlStyleSelector R 25
+_ZTS22QWhatsThisClickedEvent R 25
+_ZTS23QDoubleValidatorPrivate D 26
+_ZTS23QImageTextureGlyphCache R 26
+_ZTS23QOpenGLFunctionsPrivate D 26
+_ZTS23QOpenUrlHandlerRegistry R 26
+_ZTS23QPlatformGraphicsBuffer R 26
+_ZTS23QPlatformSystemTrayIcon R 26
+_ZTS23QRasterPaintEngineState R 26
+_ZTS23QWindowStateChangeEvent R 26
+_ZTS24QAbstractOpenGLFunctions R 27
+_ZTS24QBlittablePlatformPixmap R 27
+_ZTS24QOffscreenSurfacePrivate D 27
+_ZTS24QOpenGL2PaintEngineState R 27
+_ZTS24QOpenGLCustomShaderStage R 27
+_ZTS24QOpenGLExtensionsPrivate D 27
+_ZTS24QOpenGLFramebufferObject R 27
+_ZTS24QOpenGLTextureGlyphCache R 27
+_ZTS24QOpenGLTimerQueryPrivate D 27
+_ZTS24QOpenGLVertexArrayObject R 27
+_ZTS24QOpenGLWindowPaintDevice R 27
+_ZTS24QPagedPaintDevicePrivate R 27
+_ZTS24QPlatformNativeInterface R 27
+_ZTS25QOpenGLDebugLoggerPrivate D 28
+_ZTS25QOpenGLFunctionsPrivateEx D 28
+_ZTS25QOpenGLFunctions_3_2_Core R 28
+_ZTS25QOpenGLFunctions_3_3_Core R 28
+_ZTS25QOpenGLFunctions_4_0_Core R 28
+_ZTS25QOpenGLFunctions_4_1_Core R 28
+_ZTS25QOpenGLFunctions_4_2_Core R 28
+_ZTS25QOpenGLFunctions_4_3_Core R 28
+_ZTS25QOpenGLFunctions_4_4_Core R 28
+_ZTS25QOpenGLFunctions_4_5_Core R 28
+_ZTS25QOpenGLPaintDevicePrivate R 28
+_ZTS25QOpenGLTimeMonitorPrivate D 28
+_ZTS25QPaintDeviceWindowPrivate D 28
+_ZTS25QPlatformFileDialogHelper R 28
+_ZTS25QPlatformFontDialogHelper R 28
+_ZTS25QPlatformOffscreenSurface R 28
+_ZTS25QRasterPaintEnginePrivate R 28
+_ZTS25QStandardItemModelPrivate R 28
+_ZTS25QSyntaxHighlighterPrivate D 28
+_ZTS25QWindowSystemEventHandler R 28
+_ZTS26QBlitterPaintEnginePrivate D 29
+_ZTS26QInputDeviceManagerPrivate D 29
+_ZTS26QOpenGLContextGroupPrivate D 29
+_ZTS26QOpenGLEngineShaderManager R 29
+_ZTS26QOpenGLSharedResourceGuard R 29
+_ZTS26QPicturePaintEnginePrivate D 29
+_ZTS26QPlatformColorDialogHelper R 29
+_ZTS26QPlatformIntegrationPlugin R 29
+_ZTS26QTextDocumentLayoutPrivate D 29
+_ZTS27QAbstractTextDocumentLayout R 30
+_ZTS27QOpenGLShaderProgramPrivate R 30
+_ZTS27QPdfPagedPaintDevicePrivate D 30
+_ZTS27QPlatformInputContextPlugin R 30
+_ZTS27QPlatformTextureListPrivate D 30
+_ZTS27QRegularExpressionValidator R 30
+_ZTS28QApplicationStateChangeEvent D 31
+_ZTS28QOpenGL2PaintEngineExPrivate R 31
+_ZTS28QOpenGLExtraFunctionsPrivate D 31
+_ZTS28QPlatformInputContextPrivate D 31
+_ZTS28QPlatformMessageDialogHelper R 31
+_ZTS28QPlatformSharedGraphicsCache R 31
+_ZTS29QScreenOrientationChangeEvent R 32
+_ZTS31QOpenGLVertexArrayObjectPrivate D 34
+_ZTS34QAbstractTextDocumentLayoutPrivate R 37
+_ZTS34QOpenGLEngineSharedShadersResource D 37
+_ZTS34QOpenGLFunctions_3_2_Compatibility R 37
+_ZTS34QOpenGLFunctions_3_3_Compatibility R 37
+_ZTS34QOpenGLFunctions_4_0_Compatibility R 37
+_ZTS34QOpenGLFunctions_4_1_Compatibility R 37
+_ZTS34QOpenGLFunctions_4_2_Compatibility R 37
+_ZTS34QOpenGLFunctions_4_3_Compatibility R 37
+_ZTS34QOpenGLFunctions_4_4_Compatibility R 37
+_ZTS34QOpenGLFunctions_4_5_Compatibility R 37
+_ZTS34QRegularExpressionValidatorPrivate D 37
+_ZTS5QDrag R 7
+_ZTS6QImage R 8
+_ZTS6QMovie R 8
+_ZTS7QBitmap R 9
+_ZTS7QPixmap R 9
+_ZTS7QScreen R 9
+_ZTS7QWindow R 9
+_ZTS8QPMCache R 10
+_ZTS8QPicture R 10
+_ZTS8QStroker R 10
+_ZTS8QSurface R 10
+_ZTS9QKeyEvent R 11
+_ZTS9QTextList R 11
+_ZTSN29QWindowSystemInterfacePrivate10CloseEventE D 46
+_ZTSN29QWindowSystemInterfacePrivate10EnterEventE D 46
+_ZTSN29QWindowSystemInterfacePrivate10InputEventE D 46
+_ZTSN29QWindowSystemInterfacePrivate10LeaveEventE D 46
+_ZTSN29QWindowSystemInterfacePrivate10MouseEventE D 46
+_ZTSN29QWindowSystemInterfacePrivate10TouchEventE D 46
+_ZTSN29QWindowSystemInterfacePrivate10WheelEventE D 46
+_ZTSN29QWindowSystemInterfacePrivate11ExposeEventE D 47
+_ZTSN29QWindowSystemInterfacePrivate11TabletEventE D 47
+_ZTSN29QWindowSystemInterfacePrivate12GestureEventE D 48
+_ZTSN29QWindowSystemInterfacePrivate13FileOpenEventE D 49
+_ZTSN29QWindowSystemInterfacePrivate16ContextMenuEventE D 52
+_ZTSN29QWindowSystemInterfacePrivate16FlushEventsEventE D 52
+_ZTSN29QWindowSystemInterfacePrivate16ThemeChangeEventE D 52
+_ZTSN29QWindowSystemInterfacePrivate17WindowSystemEventE D 53
+_ZTSN29QWindowSystemInterfacePrivate18PlatformPanelEventE D 54
+_ZTSN29QWindowSystemInterfacePrivate19GeometryChangeEventE D 55
+_ZTSN29QWindowSystemInterfacePrivate19ScreenGeometryEventE D 55
+_ZTSN29QWindowSystemInterfacePrivate20ActivatedWindowEventE D 56
+_ZTSN29QWindowSystemInterfacePrivate22ScreenOrientationEventE D 58
+_ZTSN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventE D 58
+_ZTSN29QWindowSystemInterfacePrivate23WindowStateChangedEventE D 59
+_ZTSN29QWindowSystemInterfacePrivate24WindowScreenChangedEventE D 60
+_ZTSN29QWindowSystemInterfacePrivate25TabletEnterProximityEventE D 61
+_ZTSN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE D 61
+_ZTSN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventE D 64
+_ZTSN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventE D 65
+_ZTSN29QWindowSystemInterfacePrivate8KeyEventE D 43
+_ZTSN29QWindowSystemInterfacePrivate9UserEventE D 44
+_ZTSN4QCss13StyleSelectorE R 23
+_ZTV10QBasicDrag D 240
+_ZTV10QBlittable D 88
+_ZTV10QClipboard D 120
+_ZTV10QDropEvent D 32
+_ZTV10QFontCache D 120
+_ZTV10QHelpEvent D 32
+_ZTV10QHideEvent D 32
+_ZTV10QKeyMapper D 120
+_ZTV10QMoveEvent D 32
+_ZTV10QPdfEngine D 192
+_ZTV10QPdfWriter D 280
+_ZTV10QShowEvent D 32
+_ZTV10QTextFrame D 120
+_ZTV10QTextTable D 120
+_ZTV10QValidator D 136
+_ZTV11PixmapEntry D 40
+_ZTV11QBmpHandler D 144
+_ZTV11QCloseEvent D 32
+_ZTV11QEnterEvent D 32
+_ZTV11QFakeDevice D 80
+_ZTV11QFocusEvent D 32
+_ZTV11QFontEngine D 424
+_ZTV11QHoverEvent D 32
+_ZTV11QIconEngine D 128
+_ZTV11QInputEvent D 32
+_ZTV11QMouseEvent D 32
+_ZTV11QPaintEvent D 32
+_ZTV11QPngHandler D 144
+_ZTV11QPpmHandler D 144
+_ZTV11QSimpleDrag D 240
+_ZTV11QStrokerOps D 56
+_ZTV11QStyleHints D 120
+_ZTV11QTextObject D 120
+_ZTV11QTouchEvent D 32
+_ZTV11QWheelEvent D 32
+_ZTV11QXbmHandler D 144
+_ZTV11QXpmHandler D 144
+_ZTV12QActionEvent D 32
+_ZTV12QDashStroker D 56
+_ZTV12QDragManager D 120
+_ZTV12QDragPrivate D 32
+_ZTV12QExposeEvent D 32
+_ZTV12QInputMethod D 120
+_ZTV12QPaintDevice D 80
+_ZTV12QPaintEngine D 192
+_ZTV12QResizeEvent D 32
+_ZTV12QScrollEvent D 32
+_ZTV12QTabletEvent D 32
+_ZTV13QIntValidator D 144
+_ZTV13QMoviePrivate D 32
+_ZTV13QOpenGLShader D 120
+_ZTV13QOpenGLWindow D 520
+_ZTV13QPainterState D 32
+_ZTV13QPlatformDrag D 72
+_ZTV13QPlatformMenu D 280
+_ZTV13QRasterWindow D 480
+_ZTV13QStandardItem D 88
+_ZTV13QTextDocument D 144
+_ZTV13ScalableEntry D 40
+_ZTV14QDragMoveEvent D 32
+_ZTV14QFileOpenEvent D 32
+_ZTV14QFontEngineBox D 424
+_ZTV14QGenericPlugin D 128
+_ZTV14QIconDragEvent D 32
+_ZTV14QImageIOPlugin D 136
+_ZTV14QOpenGLContext D 120
+_ZTV14QPaintEngineEx D 432
+_ZTV14QPlatformTheme D 152
+_ZTV14QScreenPrivate D 32
+_ZTV14QShortcutEvent D 32
+_ZTV14QTextFrameData D 32
+_ZTV14QTextTableData D 32
+_ZTV14QWindowPrivate D 56
+_ZTV15QDragEnterEvent D 32
+_ZTV15QDragLeaveEvent D 32
+_ZTV15QFontEngineQPF2 D 424
+_ZTV15QGridLayoutItem D 88
+_ZTV15QGuiApplication D 136
+_ZTV15QImageIOHandler D 144
+_ZTV15QPlatformCursor D 152
+_ZTV15QPlatformPixmap D 184
+_ZTV15QPlatformScreen D 192
+_ZTV15QPlatformWindow D 328
+_ZTV15QStatusTipEvent D 32
+_ZTV15QTestFontEngine D 424
+_ZTV15QTextBlockGroup D 144
+_ZTV16QDoubleValidator D 144
+_ZTV16QFontEngineMulti D 448
+_ZTV16QPlatformMenuBar D 168
+_ZTV16QPlatformSurface D 40
+_ZTV16QRegExpValidator D 136
+_ZTV16QTextListPrivate D 32
+_ZTV17QContextMenuEvent D 32
+_ZTV17QIconEnginePlugin D 128
+_ZTV17QIconLoaderEngine D 128
+_ZTV17QInputMethodEvent D 32
+_ZTV17QInternalMimeData D 168
+_ZTV17QKeyMapperPrivate D 32
+_ZTV17QOffscreenSurface D 216
+_ZTV17QOpenGLTimerQuery D 120
+_ZTV17QPagedPaintDevice D 112
+_ZTV17QPdfEnginePrivate D 56
+_ZTV17QPdfWriterPrivate D 32
+_ZTV17QPixmapCacheEntry D 80
+_ZTV17QPixmapIconEngine D 128
+_ZTV17QPlatformMenuItem D 248
+_ZTV17QPlatformServices D 56
+_ZTV17QTextFramePrivate D 48
+_ZTV17QTextImageHandler D 184
+_ZTV17QTextTablePrivate D 48
+_ZTV17QValidatorPrivate D 32
+_ZTV18QOpenGLDebugLogger D 120
+_ZTV18QOpenGLPaintDevice D 88
+_ZTV18QOpenGLTimeMonitor D 120
+_ZTV18QPaintDeviceWindow D 472
+_ZTV18QPlatformClipboard D 64
+_ZTV18QRasterPaintEngine D 456
+_ZTV18QStandardItemModel D 392
+_ZTV18QStyleHintsPrivate D 32
+_ZTV18QSyntaxHighlighter D 128
+_ZTV18QTextBlockUserData D 32
+_ZTV18QTextObjectPrivate D 32
+_ZTV18QTextureGlyphCache D 96
+_ZTV18QXmlStreamStrategy D 40
+_ZTV18QZipStreamStrategy D 40
+_ZTV19QBlitterPaintEngine D 456
+_ZTV19QInputDeviceManager D 120
+_ZTV19QInputMethodPrivate D 32
+_ZTV19QNativeGestureEvent D 32
+_ZTV19QOpenGLContextGroup D 120
+_ZTV19QOpenGLGlyphTexture D 48
+_ZTV19QOpenGLTextureCache D 48
+_ZTV19QPaintEnginePrivate D 56
+_ZTV19QPicturePaintEngine D 192
+_ZTV19QScrollPrepareEvent D 32
+_ZTV19QShapedPixmapWindow D 480
+_ZTV19QStaticTextUserData D 32
+_ZTV19QTextDocumentLayout D 200
+_ZTV19QToolBarChangeEvent D 32
+_ZTV20QOpenGLFunctions_1_0 D 40
+_ZTV20QOpenGLFunctions_1_1 D 40
+_ZTV20QOpenGLFunctions_1_2 D 40
+_ZTV20QOpenGLFunctions_1_3 D 40
+_ZTV20QOpenGLFunctions_1_4 D 40
+_ZTV20QOpenGLFunctions_1_5 D 40
+_ZTV20QOpenGLFunctions_2_0 D 40
+_ZTV20QOpenGLFunctions_2_1 D 40
+_ZTV20QOpenGLFunctions_3_0 D 40
+_ZTV20QOpenGLFunctions_3_1 D 40
+_ZTV20QOpenGLShaderPrivate D 32
+_ZTV20QOpenGLShaderProgram D 128
+_ZTV20QOpenGLWindowPrivate D 80
+_ZTV20QPictureFormatPlugin D 144
+_ZTV20QPlatformIntegration D 248
+_ZTV20QPlatformTextureList D 120
+_ZTV20QPlatformThemePlugin D 128
+_ZTV20QRasterWindowPrivate D 80
+_ZTV20QStandardItemPrivate D 32
+_ZTV20QTextDocumentPrivate D 32
+_ZTV20QTextFrameLayoutData D 32
+_ZTV20QTextObjectInterface D 48
+_ZTV21QEmulationPaintEngine D 432
+_ZTV21QFontEngineGlyphCache D 32
+_ZTV21QOpenGL2GradientCache D 48
+_ZTV21QOpenGL2PaintEngineEx D 432
+_ZTV21QOpenGLContextPrivate D 32
+_ZTV21QOpenGLSharedResource D 48
+_ZTV21QPaintEngineExPrivate D 56
+_ZTV21QPlatformBackingStore D 112
+_ZTV21QPlatformDialogHelper D 152
+_ZTV21QPlatformFontDatabase D 152
+_ZTV21QPlatformInputContext D 240
+_ZTV21QPlatformSurfaceEvent D 32
+_ZTV21QPlatformThemePrivate D 32
+_ZTV21QRasterPlatformPixmap D 184
+_ZTV22QGuiApplicationPrivate D 120
+_ZTV22QIconLoaderEngineEntry D 40
+_ZTV22QImageIOHandlerPrivate D 32
+_ZTV22QInputMethodQueryEvent D 32
+_ZTV22QPlatformOpenGLContext D 104
+_ZTV22QTextBlockGroupPrivate D 32
+_ZTV22QTextHtmlStyleSelector D 112
+_ZTV22QWhatsThisClickedEvent D 32
+_ZTV23QDoubleValidatorPrivate D 32
+_ZTV23QImageTextureGlyphCache D 96
+_ZTV23QOpenUrlHandlerRegistry D 120
+_ZTV23QPlatformGraphicsBuffer D 176
+_ZTV23QPlatformSystemTrayIcon D 200
+_ZTV23QRasterPaintEngineState D 32
+_ZTV23QWindowStateChangeEvent D 32
+_ZTV24QAbstractOpenGLFunctions D 40
+_ZTV24QBlittablePlatformPixmap D 192
+_ZTV24QOffscreenSurfacePrivate D 32
+_ZTV24QOpenGL2PaintEngineState D 32
+_ZTV24QOpenGLCustomShaderStage D 40
+_ZTV24QOpenGLFramebufferObject D 32
+_ZTV24QOpenGLTextureGlyphCache D 96
+_ZTV24QOpenGLTimerQueryPrivate D 32
+_ZTV24QOpenGLVertexArrayObject D 120
+_ZTV24QOpenGLWindowPaintDevice D 88
+_ZTV24QPagedPaintDevicePrivate D 80
+_ZTV24QPlatformNativeInterface D 248
+_ZTV25QOpenGLDebugLoggerPrivate D 32
+_ZTV25QOpenGLFunctionsPrivateEx D 48
+_ZTV25QOpenGLFunctions_3_2_Core D 40
+_ZTV25QOpenGLFunctions_3_3_Core D 40
+_ZTV25QOpenGLFunctions_4_0_Core D 40
+_ZTV25QOpenGLFunctions_4_1_Core D 40
+_ZTV25QOpenGLFunctions_4_2_Core D 40
+_ZTV25QOpenGLFunctions_4_3_Core D 40
+_ZTV25QOpenGLFunctions_4_4_Core D 40
+_ZTV25QOpenGLFunctions_4_5_Core D 40
+_ZTV25QOpenGLPaintDevicePrivate D 48
+_ZTV25QOpenGLTimeMonitorPrivate D 32
+_ZTV25QPaintDeviceWindowPrivate D 80
+_ZTV25QPlatformFileDialogHelper D 224
+_ZTV25QPlatformFontDialogHelper D 168
+_ZTV25QPlatformOffscreenSurface D 48
+_ZTV25QRasterPaintEnginePrivate D 56
+_ZTV25QStandardItemModelPrivate D 32
+_ZTV25QSyntaxHighlighterPrivate D 32
+_ZTV25QWindowSystemEventHandler D 40
+_ZTV26QBlitterPaintEnginePrivate D 56
+_ZTV26QInputDeviceManagerPrivate D 32
+_ZTV26QOpenGLContextGroupPrivate D 32
+_ZTV26QOpenGLEngineShaderManager D 120
+_ZTV26QOpenGLSharedResourceGuard D 48
+_ZTV26QPicturePaintEnginePrivate D 56
+_ZTV26QPlatformColorDialogHelper D 168
+_ZTV26QPlatformIntegrationPlugin D 136
+_ZTV26QTextDocumentLayoutPrivate D 32
+_ZTV27QAbstractTextDocumentLayout D 200
+_ZTV27QOpenGLShaderProgramPrivate D 32
+_ZTV27QPdfPagedPaintDevicePrivate D 80
+_ZTV27QPlatformInputContextPlugin D 128
+_ZTV27QPlatformTextureListPrivate D 32
+_ZTV27QRegularExpressionValidator D 136
+_ZTV28QApplicationStateChangeEvent D 32
+_ZTV28QOpenGL2PaintEngineExPrivate D 56
+_ZTV28QPlatformInputContextPrivate D 32
+_ZTV28QPlatformMessageDialogHelper D 152
+_ZTV28QPlatformSharedGraphicsCache D 216
+_ZTV29QScreenOrientationChangeEvent D 32
+_ZTV31QOpenGLVertexArrayObjectPrivate D 32
+_ZTV34QAbstractTextDocumentLayoutPrivate D 32
+_ZTV34QOpenGLEngineSharedShadersResource D 48
+_ZTV34QOpenGLFunctions_3_2_Compatibility D 40
+_ZTV34QOpenGLFunctions_3_3_Compatibility D 40
+_ZTV34QOpenGLFunctions_4_0_Compatibility D 40
+_ZTV34QOpenGLFunctions_4_1_Compatibility D 40
+_ZTV34QOpenGLFunctions_4_2_Compatibility D 40
+_ZTV34QOpenGLFunctions_4_3_Compatibility D 40
+_ZTV34QOpenGLFunctions_4_4_Compatibility D 40
+_ZTV34QOpenGLFunctions_4_5_Compatibility D 40
+_ZTV34QRegularExpressionValidatorPrivate D 32
+_ZTV5QDrag D 120
+_ZTV6QImage D 80
+_ZTV6QMovie D 120
+_ZTV7QBitmap D 80
+_ZTV7QPixmap D 80
+_ZTV7QScreen D 120
+_ZTV7QWindow D 368
+_ZTV8QPMCache D 120
+_ZTV8QPicture D 88
+_ZTV8QStroker D 56
+_ZTV8QSurface D 64
+_ZTV9QKeyEvent D 32
+_ZTV9QTextList D 144
+_ZTVN29QWindowSystemInterfacePrivate10CloseEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate10EnterEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate10LeaveEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate10MouseEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate10TouchEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate10WheelEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate11ExposeEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate11TabletEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate12GestureEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate13FileOpenEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate16ContextMenuEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate16FlushEventsEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate16ThemeChangeEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate17WindowSystemEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate18PlatformPanelEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate19GeometryChangeEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate19ScreenGeometryEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate20ActivatedWindowEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate22ScreenOrientationEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate23WindowStateChangedEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate24WindowScreenChangedEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate25TabletEnterProximityEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate8KeyEventE D 32
+_ZTVN29QWindowSystemInterfacePrivate9UserEventE D 32
+_ZTVN4QCss13StyleSelectorE D 112
 _ZThn16_N10QBasicDrag11eventFilterEP7QObjectP6QEvent T
 _ZThn16_N10QBasicDragD0Ev T
 _ZThn16_N10QBasicDragD1Ev T
@@ -7748,6 +8656,16 @@ _ZThn16_NK17QOffscreenSurface6formatEv T
 _ZThn16_NK7QWindow11surfaceTypeEv T
 _ZThn16_NK7QWindow13surfaceHandleEv T
 _ZThn16_NK7QWindow6formatEv T
+_ZThn20_N13QOpenGLWindowD0Ev T
+_ZThn20_N13QOpenGLWindowD1Ev T
+_ZThn20_N19QShapedPixmapWindowD0Ev T
+_ZThn20_N19QShapedPixmapWindowD1Ev T
+_ZThn20_NK13QOpenGLWindow10redirectedEP6QPoint T
+_ZThn20_NK13QOpenGLWindow6metricEN12QPaintDevice17PaintDeviceMetricE T
+_ZThn20_NK13QRasterWindow10redirectedEP6QPoint T
+_ZThn20_NK13QRasterWindow6metricEN12QPaintDevice17PaintDeviceMetricE T
+_ZThn20_NK18QPaintDeviceWindow11paintEngineEv T
+_ZThn20_NK18QPaintDeviceWindow6metricEN12QPaintDevice17PaintDeviceMetricE T
 _ZThn40_N13QOpenGLWindowD0Ev T
 _ZThn40_N13QOpenGLWindowD1Ev T
 _ZThn40_N19QShapedPixmapWindowD0Ev T
@@ -7758,6 +8676,31 @@ _ZThn40_NK13QRasterWindow10redirectedEP6QPoint T
 _ZThn40_NK13QRasterWindow6metricEN12QPaintDevice17PaintDeviceMetricE T
 _ZThn40_NK18QPaintDeviceWindow11paintEngineEv T
 _ZThn40_NK18QPaintDeviceWindow6metricEN12QPaintDevice17PaintDeviceMetricE T
+_ZThn8_N10QBasicDrag11eventFilterEP7QObjectP6QEvent T
+_ZThn8_N10QBasicDragD0Ev T
+_ZThn8_N10QBasicDragD1Ev T
+_ZThn8_N10QPdfWriter10setMarginsERKN17QPagedPaintDevice7MarginsE T
+_ZThn8_N10QPdfWriter11setPageSizeEN17QPagedPaintDevice8PageSizeE T
+_ZThn8_N10QPdfWriter13setPageSizeMMERK6QSizeF T
+_ZThn8_N10QPdfWriter7newPageEv T
+_ZThn8_N10QPdfWriterD0Ev T
+_ZThn8_N10QPdfWriterD1Ev T
+_ZThn8_N13QOpenGLWindowD0Ev T
+_ZThn8_N13QOpenGLWindowD1Ev T
+_ZThn8_N17QOffscreenSurfaceD0Ev T
+_ZThn8_N17QOffscreenSurfaceD1Ev T
+_ZThn8_N17QTextImageHandler10drawObjectEP8QPainterRK6QRectFP13QTextDocumentiRK11QTextFormat T
+_ZThn8_N17QTextImageHandler13intrinsicSizeEP13QTextDocumentiRK11QTextFormat T
+_ZThn8_N19QShapedPixmapWindowD0Ev T
+_ZThn8_N19QShapedPixmapWindowD1Ev T
+_ZThn8_N7QWindowD0Ev T
+_ZThn8_N7QWindowD1Ev T
+_ZThn8_NK10QPdfWriter11paintEngineEv T
+_ZThn8_NK10QPdfWriter6metricEN12QPaintDevice17PaintDeviceMetricE T
+_ZThn8_NK17QOffscreenSurface11surfaceTypeEv T
+_ZThn8_NK17QOffscreenSurface13surfaceHandleEv T
+_ZThn8_NK17QOffscreenSurface4sizeEv T
+_ZThn8_NK17QOffscreenSurface6formatEv T
 _ZThn8_NK7QWindow11surfaceTypeEv T
 _ZThn8_NK7QWindow13surfaceHandleEv T
 _ZThn8_NK7QWindow6formatEv T
@@ -7891,90 +8834,3 @@ _ZN22QWindowSystemInterface14handleKeyEventINS_15DefaultDeliveryEEEbP7QWindowN6Q
 _ZN22QWindowSystemInterface16handleMouseEventINS_15DefaultDeliveryEEEvP7QWindowRK7QPointFS6_6QFlagsIN2Qt11MouseButtonEES7_INS8_16KeyboardModifierEENS8_16MouseEventSourceE W
 _ZN22QWindowSystemInterface16handleTouchEventINS_15DefaultDeliveryEEEvP7QWindowP12QTouchDeviceRK5QListINS_10TouchPointEE6QFlagsIN2Qt16KeyboardModifierEE W
 _ZN22QWindowSystemInterface20handleGeometryChangeINS_15DefaultDeliveryEEEvP7QWindowRK5QRectS6_ W
-
-# manually added typeinfo and vtable symbols
-
-_ZTI10QPdfEngine V
-_ZTI10QValidator V
-_ZTI11QFontEngine V
-_ZTI11QInputEvent V
-_ZTI12QPaintDevice V
-_ZTI12QPaintEngine V
-_ZTI13QIntValidator V
-_ZTI13QPainterState V
-_ZTI13QTextDocument V
-_ZTI14QImageIOPlugin V
-_ZTI14QPaintEngineEx V
-_ZTI14QWindowPrivate V
-_ZTI15QGridLayoutItem V
-_ZTI15QGuiApplication V
-_ZTI15QImageIOHandler V
-_ZTI15QPlatformCursor V
-_ZTI15QPlatformScreen V
-_ZTI15QPlatformWindow V
-_ZTI16QDoubleValidator V
-_ZTI16QRegExpValidator V
-_ZTI17QPagedPaintDevice V
-_ZTI17QPdfEnginePrivate V
-_ZTI18QOpenGLPaintDevice V
-_ZTI18QPlatformClipboard V
-_ZTI18QStandardItemModel V
-_ZTI18QSyntaxHighlighter V
-_ZTI19QPaintEnginePrivate V
-_ZTI19QStaticTextUserData V
-_ZTI20QOpenGLShaderProgram V
-_ZTI20QPlatformIntegration V
-_ZTI20QTextObjectInterface V
-_ZTI21QOpenGL2PaintEngineEx V
-_ZTI21QPaintEngineExPrivate V
-_ZTI21QPlatformBackingStore V
-_ZTI21QPlatformFontDatabase V
-_ZTI21QPlatformInputContext V
-_ZTI22QGuiApplicationPrivate V
-_ZTI22QPlatformOpenGLContext V
-_ZTI23QImageTextureGlyphCache V
-_ZTI24QPagedPaintDevicePrivate V
-_ZTI25QOpenGLPaintDevicePrivate V
-_ZTI26QPlatformIntegrationPlugin V
-_ZTI27QAbstractTextDocumentLayout V
-_ZTI27QPlatformInputContextPlugin V
-_ZTI34QAbstractTextDocumentLayoutPrivate V
-_ZTI7QWindow V
-_ZTIN4QCss13StyleSelectorE V
-_ZTV10QDropEvent V
-_ZTV10QHelpEvent V
-_ZTV10QHideEvent V
-_ZTV10QMoveEvent V
-_ZTV10QPdfEngine V
-_ZTV10QShowEvent V
-_ZTV11QCloseEvent V
-_ZTV11QFocusEvent V
-_ZTV11QHoverEvent V
-_ZTV11QMouseEvent V
-_ZTV11QTouchEvent V
-_ZTV11QWheelEvent V
-_ZTV12QActionEvent V
-_ZTV12QResizeEvent V
-_ZTV12QTabletEvent V
-_ZTV13QPainterState V
-_ZTV14QDragMoveEvent V
-_ZTV14QFileOpenEvent V
-_ZTV14QIconDragEvent V
-_ZTV14QPaintEngineEx V
-_ZTV14QShortcutEvent V
-_ZTV14QWindowPrivate V
-_ZTV15QDragEnterEvent V
-_ZTV15QDragLeaveEvent V
-_ZTV15QPlatformCursor V
-_ZTV15QStatusTipEvent V
-_ZTV17QContextMenuEvent V
-_ZTV19QPaintEnginePrivate V
-_ZTV19QToolBarChangeEvent V
-_ZTV21QFontEngineGlyphCache V
-_ZTV22QWhatsThisClickedEvent V
-_ZTV23QImageTextureGlyphCache V
-_ZTV23QWindowStateChangeEvent V
-_ZTV24QPagedPaintDevicePrivate V
-_ZTV26QOpenGLSharedResourceGuard V
-_ZTV6QImage V
-_ZTV9QKeyEvent V

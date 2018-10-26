@@ -507,6 +507,54 @@ _ZNK9QSqlQuery8isActiveEv T
 _ZNK9QSqlQuery8isSelectEv T
 _ZNK9QSqlQuery9lastErrorEv T
 _ZNK9QSqlQuery9lastQueryEv T
+_ZTI10QSqlDriver D 24
+_ZTI10QSqlResult D 16
+_ZTI14QSqlNullDriver D 24
+_ZTI14QSqlNullResult D 24
+_ZTI14QSqlQueryModel D 24
+_ZTI14QSqlTableModel D 24
+_ZTI16QSqlCachedResult D 24
+_ZTI16QSqlDriverPlugin D 24
+_ZTI17QSqlDriverPrivate D 24
+_ZTI17QSqlResultPrivate D 16
+_ZTI18QRelatedTableModel D 24
+_ZTI21QSqlQueryModelPrivate D 24
+_ZTI21QSqlTableModelPrivate D 24
+_ZTI23QSqlCachedResultPrivate D 24
+_ZTI24QSqlRelationalTableModel D 24
+_ZTI31QSqlRelationalTableModelPrivate D 24
+_ZTS10QSqlDriver R 13
+_ZTS10QSqlResult R 13
+_ZTS14QSqlNullDriver D 17
+_ZTS14QSqlNullResult D 17
+_ZTS14QSqlQueryModel R 17
+_ZTS14QSqlTableModel R 17
+_ZTS16QSqlCachedResult R 19
+_ZTS16QSqlDriverPlugin R 19
+_ZTS17QSqlDriverPrivate D 20
+_ZTS17QSqlResultPrivate R 20
+_ZTS18QRelatedTableModel R 21
+_ZTS21QSqlQueryModelPrivate R 24
+_ZTS21QSqlTableModelPrivate R 24
+_ZTS23QSqlCachedResultPrivate D 26
+_ZTS24QSqlRelationalTableModel R 27
+_ZTS31QSqlRelationalTableModelPrivate R 34
+_ZTV10QSqlDriver D 312
+_ZTV10QSqlResult D 264
+_ZTV14QSqlNullDriver D 312
+_ZTV14QSqlNullResult D 264
+_ZTV14QSqlQueryModel D 416
+_ZTV14QSqlTableModel D 512
+_ZTV16QSqlCachedResult D 272
+_ZTV16QSqlDriverPlugin D 128
+_ZTV17QSqlDriverPrivate D 32
+_ZTV17QSqlResultPrivate D 40
+_ZTV18QRelatedTableModel D 512
+_ZTV21QSqlQueryModelPrivate D 32
+_ZTV21QSqlTableModelPrivate D 56
+_ZTV23QSqlCachedResultPrivate D 40
+_ZTV24QSqlRelationalTableModel D 528
+_ZTV31QSqlRelationalTableModelPrivate D 56
 _Zls6QDebugRK10QSqlRecord T
 _Zls6QDebugRK12QSqlDatabase T
 _Zls6QDebugRK9QSqlError T

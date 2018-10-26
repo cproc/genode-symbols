@@ -20,3 +20,9 @@ _ZNK12QJpegHandler14supportsOptionEN15QImageIOHandler11ImageOptionE T
 _ZNK12QJpegHandler4nameEv T
 _ZNK12QJpegHandler6optionEN15QImageIOHandler11ImageOptionE T
 _ZNK12QJpegHandler7canReadEv T
+_ZTI11QJpegPlugin D 24
+_ZTI12QJpegHandler D 24
+_ZTS11QJpegPlugin R 14
+_ZTS12QJpegHandler R 15
+_ZTV11QJpegPlugin D 136
+_ZTV12QJpegHandler D 144

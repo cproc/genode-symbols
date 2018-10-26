@@ -750,9 +750,109 @@ _ZNK9QGLWidget7isValidEv T
 _ZNK9QGLWidget8colormapEv T
 _ZNK9QGLWidget8qglColorERK6QColor T
 _ZNK9QGLWidget9isSharingEv T
+_ZTI10QGLContext D 16
+_ZTI14QGLPaintDevice D 24
+_ZTI14QGLPixelBuffer D 24
+_ZTI14QGLSignalProxy D 24
+_ZTI15QGLGlyphTexture D 24
+_ZTI16QGLShaderPrivate D 24
+_ZTI16QGLShaderProgram D 24
+_ZTI16QGLWidgetPrivate D 24
+_ZTI16QOpenGLFunctions D 16
+_ZTI17QGL2GradientCache D 24
+_ZTI17QGL2PaintEngineEx D 24
+_ZTI17QOpenGLExtensions D 24
+_ZTI19QGLFBOGLPaintDevice D 24
+_ZTI19QGLFunctionsPrivate D 16
+_ZTI20QGL2PaintEngineState D 24
+_ZTI20QGLCustomShaderStage D 16
+_ZTI20QGLFramebufferObject D 24
+_ZTI20QGLTextureGlyphCache D 24
+_ZTI21QGLFunctionsPrivateEx D 56
+_ZTI21QGraphicsShaderEffect D 24
+_ZTI21QOpenGLExtraFunctions D 24
+_ZTI21QOpenGLSharedResource D 16
+_ZTI22QGLEngineShaderManager D 24
+_ZTI22QGLSharedResourceGuardIPFvP10QGLContextjEE D 24
+_ZTI22QGLWidgetGLPaintDevice D 24
+_ZTI23QGLPBufferGLPaintDevice D 24
+_ZTI23QGLShaderProgramPrivate D 24
+_ZTI24QGL2PaintEngineExPrivate D 56
+_ZTI26QGLCustomShaderEffectStage D 24
+_ZTI26QGLSharedResourceGuardBase D 24
+_ZTI28QGraphicsShaderEffectPrivate D 24
+_ZTI30QGLEngineSharedShadersResource D 24
+_ZTI9QGLShader D 24
+_ZTI9QGLWidget D 24
+_ZTS10QGLContext R 13
+_ZTS14QGLPaintDevice R 17
+_ZTS14QGLPixelBuffer R 17
+_ZTS14QGLSignalProxy R 17
+_ZTS15QGLGlyphTexture D 18
+_ZTS16QGLShaderPrivate R 19
+_ZTS16QGLShaderProgram R 19
+_ZTS16QGLWidgetPrivate D 19
+_ZTS16QOpenGLFunctions D 19
+_ZTS17QGL2GradientCache R 20
+_ZTS17QGL2PaintEngineEx R 20
+_ZTS17QOpenGLExtensions D 20
+_ZTS19QGLFBOGLPaintDevice R 22
+_ZTS19QGLFunctionsPrivate D 22
+_ZTS20QGL2PaintEngineState R 23
+_ZTS20QGLCustomShaderStage R 23
+_ZTS20QGLFramebufferObject R 23
+_ZTS20QGLTextureGlyphCache R 23
+_ZTS21QGLFunctionsPrivateEx D 24
+_ZTS21QGraphicsShaderEffect R 24
+_ZTS21QOpenGLExtraFunctions D 24
+_ZTS21QOpenGLSharedResource D 24
+_ZTS22QGLEngineShaderManager R 25
+_ZTS22QGLSharedResourceGuardIPFvP10QGLContextjEE D 45
+_ZTS22QGLWidgetGLPaintDevice R 25
+_ZTS23QGLPBufferGLPaintDevice R 26
+_ZTS23QGLShaderProgramPrivate R 26
+_ZTS24QGL2PaintEngineExPrivate R 27
+_ZTS26QGLCustomShaderEffectStage R 29
+_ZTS26QGLSharedResourceGuardBase D 29
+_ZTS28QGraphicsShaderEffectPrivate D 31
+_ZTS30QGLEngineSharedShadersResource D 33
+_ZTS9QGLShader R 11
+_ZTS9QGLWidget R 11
+_ZTV10QGLContext D 72
+_ZTV14QGLPaintDevice D 144
+_ZTV14QGLPixelBuffer D 80
+_ZTV14QGLSignalProxy D 120
+_ZTV15QGLGlyphTexture D 48
+_ZTV16QGLShaderPrivate D 32
+_ZTV16QGLShaderProgram D 128
+_ZTV16QGLWidgetPrivate D 128
+_ZTV17QGL2GradientCache D 48
+_ZTV17QGL2PaintEngineEx D 432
+_ZTV19QGLFBOGLPaintDevice D 144
+_ZTV20QGL2PaintEngineState D 32
+_ZTV20QGLCustomShaderStage D 40
+_ZTV20QGLFramebufferObject D 80
+_ZTV20QGLTextureGlyphCache D 96
+_ZTV21QGLFunctionsPrivateEx D 48
+_ZTV21QGraphicsShaderEffect D 152
+_ZTV22QGLEngineShaderManager D 120
+_ZTV22QGLSharedResourceGuardIPFvP10QGLContextjEE D 56
+_ZTV22QGLWidgetGLPaintDevice D 144
+_ZTV23QGLPBufferGLPaintDevice D 144
+_ZTV23QGLShaderProgramPrivate D 32
+_ZTV24QGL2PaintEngineExPrivate D 56
+_ZTV26QGLCustomShaderEffectStage D 40
+_ZTV26QGLSharedResourceGuardBase D 56
+_ZTV28QGraphicsShaderEffectPrivate D 32
+_ZTV30QGLEngineSharedShadersResource D 48
+_ZTV9QGLShader D 120
+_ZTV9QGLWidget D 600
 _ZThn16_N9QGLWidgetD0Ev T
 _ZThn16_N9QGLWidgetD1Ev T
 _ZThn16_NK9QGLWidget11paintEngineEv T
+_ZThn8_N9QGLWidgetD0Ev T
+_ZThn8_N9QGLWidgetD1Ev T
+_ZThn8_NK9QGLWidget11paintEngineEv T
 _ZeqRK9QGLFormatS1_ T
 _Zls6QDebugRK9QGLFormat T
 _ZneRK9QGLFormatS1_ T

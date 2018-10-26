@@ -271,6 +271,7 @@ _ZN10QSslSocket18disconnectFromHostEv T
 _ZN10QSslSocket18setPeerVerifyDepthEi T
 _ZN10QSslSocket19setLocalCertificateERK15QSslCertificate T
 _ZN10QSslSocket19setLocalCertificateERK7QStringN4QSsl14EncodingFormatE T
+_ZN10QSslSocket19setSocketDescriptorEiN15QAbstractSocket11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE T
 _ZN10QSslSocket19setSocketDescriptorExN15QAbstractSocket11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE T
 _ZN10QSslSocket19setSslConfigurationERK17QSslConfiguration T
 _ZN10QSslSocket19waitForBytesWrittenEi T
@@ -312,7 +313,9 @@ _ZN10QTcpServer13newConnectionEv T
 _ZN10QTcpServer14pauseAcceptingEv T
 _ZN10QTcpServer15resumeAcceptingEv T
 _ZN10QTcpServer16staticMetaObjectE D 48
+_ZN10QTcpServer18incomingConnectionEi T
 _ZN10QTcpServer18incomingConnectionEx T
+_ZN10QTcpServer19setSocketDescriptorEi T
 _ZN10QTcpServer19setSocketDescriptorEx T
 _ZN10QTcpServer20addPendingConnectionEP10QTcpSocket T
 _ZN10QTcpServer20waitForNewConnectionEiPb T
@@ -422,12 +425,14 @@ _ZN12QLocalServer12removeServerERK7QString T
 _ZN12QLocalServer13newConnectionEv T
 _ZN12QLocalServer16setSocketOptionsE6QFlagsINS_12SocketOptionEE T
 _ZN12QLocalServer16staticMetaObjectE D 48
+_ZN12QLocalServer18incomingConnectionEj T
 _ZN12QLocalServer18incomingConnectionEy T
 _ZN12QLocalServer20waitForNewConnectionEiPb T
 _ZN12QLocalServer21nextPendingConnectionEv T
 _ZN12QLocalServer24setMaxPendingConnectionsEi T
 _ZN12QLocalServer5closeEv T
 _ZN12QLocalServer6listenERK7QString T
+_ZN12QLocalServer6listenEi T
 _ZN12QLocalServer6listenEx T
 _ZN12QLocalServerC1EP7QObject T
 _ZN12QLocalServerC2EP7QObject T
@@ -445,6 +450,7 @@ _ZN12QLocalSocket16staticMetaObjectE D 48
 _ZN12QLocalSocket16waitForConnectedEi T
 _ZN12QLocalSocket16waitForReadyReadEi T
 _ZN12QLocalSocket17setReadBufferSizeEx T
+_ZN12QLocalSocket19setSocketDescriptorEiNS_16LocalSocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE T
 _ZN12QLocalSocket19setSocketDescriptorExNS_16LocalSocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE T
 _ZN12QLocalSocket19waitForBytesWrittenEi T
 _ZN12QLocalSocket19waitForDisconnectedEi T
@@ -617,6 +623,7 @@ _ZN15QAbstractSocket16waitForConnectedEi T
 _ZN15QAbstractSocket16waitForReadyReadEi T
 _ZN15QAbstractSocket17setReadBufferSizeEx T
 _ZN15QAbstractSocket18disconnectFromHostEv T
+_ZN15QAbstractSocket19setSocketDescriptorEiNS_11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE T
 _ZN15QAbstractSocket19setSocketDescriptorExNS_11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE T
 _ZN15QAbstractSocket19waitForBytesWrittenEi T
 _ZN15QAbstractSocket19waitForDisconnectedEi T
@@ -697,8 +704,11 @@ _ZN16QNetworkDatagramC2ERKS_ T
 _ZN16QNetworkDatagramC2Ev T
 _ZN16QNetworkDatagramaSERKS_ T
 _ZN16QSocks5BindStore10timerEventEP11QTimerEvent T
+_ZN16QSocks5BindStore3addEiP15QSocks5BindData T
 _ZN16QSocks5BindStore3addExP15QSocks5BindData T
+_ZN16QSocks5BindStore8containsEi T
 _ZN16QSocks5BindStore8containsEx T
+_ZN16QSocks5BindStore8retrieveEi T
 _ZN16QSocks5BindStore8retrieveEx T
 _ZN16QSocks5BindStoreC1Ev T
 _ZN16QSocks5BindStoreC2Ev T
@@ -763,6 +773,7 @@ _ZN17QHttpNetworkReplyD0Ev T
 _ZN17QHttpNetworkReplyD1Ev T
 _ZN17QHttpNetworkReplyD2Ev T
 _ZN17QHttpSocketEngine10initializeEN15QAbstractSocket10SocketTypeENS0_20NetworkLayerProtocolE T
+_ZN17QHttpSocketEngine10initializeEiN15QAbstractSocket11SocketStateE T
 _ZN17QHttpSocketEngine10initializeExN15QAbstractSocket11SocketStateE T
 _ZN17QHttpSocketEngine11qt_metacallEN11QMetaObject4CallEiPPv T
 _ZN17QHttpSocketEngine11qt_metacastEPKc T
@@ -1052,6 +1063,7 @@ _ZN19QLocalServerPrivate18_q_onNewConnectionEv T
 _ZN19QLocalServerPrivate20waitForNewConnectionEiPb T
 _ZN19QLocalServerPrivate4initEv T
 _ZN19QLocalServerPrivate6listenERK7QString T
+_ZN19QLocalServerPrivate6listenEi T
 _ZN19QLocalServerPrivate6listenEx T
 _ZN19QLocalServerPrivate8setErrorERK7QString T
 _ZN19QLocalSocketPrivate13errorOccurredEN12QLocalSocket16LocalSocketErrorERK7QString T
@@ -1064,6 +1076,7 @@ _ZN19QLocalSocketPrivate8_q_errorEN15QAbstractSocket11SocketErrorE T
 _ZN19QLocalSocketPrivateC1Ev T
 _ZN19QLocalSocketPrivateC2Ev T
 _ZN19QNativeSocketEngine10initializeEN15QAbstractSocket10SocketTypeENS0_20NetworkLayerProtocolE T
+_ZN19QNativeSocketEngine10initializeEiN15QAbstractSocket11SocketStateE T
 _ZN19QNativeSocketEngine10initializeExN15QAbstractSocket11SocketStateE T
 _ZN19QNativeSocketEngine11qt_metacallEN11QMetaObject4CallEiPPv T
 _ZN19QNativeSocketEngine11qt_metacastEPKc T
@@ -1121,6 +1134,7 @@ _ZN19QNetworkAccessCacheD0Ev T
 _ZN19QNetworkAccessCacheD1Ev T
 _ZN19QNetworkAccessCacheD2Ev T
 _ZN19QSocks5SocketEngine10initializeEN15QAbstractSocket10SocketTypeENS0_20NetworkLayerProtocolE T
+_ZN19QSocks5SocketEngine10initializeEiN15QAbstractSocket11SocketStateE T
 _ZN19QSocks5SocketEngine10initializeExN15QAbstractSocket11SocketStateE T
 _ZN19QSocks5SocketEngine11qt_metacallEN11QMetaObject4CallEiPPv T
 _ZN19QSocks5SocketEngine11qt_metacastEPKc T
@@ -1258,6 +1272,7 @@ _ZN21QAbstractSocketEngine16staticMetaObjectE D 48
 _ZN21QAbstractSocketEngine17closeNotificationEv T
 _ZN21QAbstractSocketEngine17writeNotificationEv T
 _ZN21QAbstractSocketEngine18createSocketEngineEN15QAbstractSocket10SocketTypeERK13QNetworkProxyP7QObject T
+_ZN21QAbstractSocketEngine18createSocketEngineEiP7QObject T
 _ZN21QAbstractSocketEngine18createSocketEngineExP7QObject T
 _ZN21QAbstractSocketEngine21exceptionNotificationEv T
 _ZN21QAbstractSocketEngine22connectionNotificationEv T
@@ -1596,6 +1611,7 @@ _ZN24QHttpNetworkReplyPrivateD0Ev T
 _ZN24QHttpNetworkReplyPrivateD1Ev T
 _ZN24QHttpNetworkReplyPrivateD2Ev T
 _ZN24QHttpSocketEngineHandler18createSocketEngineEN15QAbstractSocket10SocketTypeERK13QNetworkProxyP7QObject T
+_ZN24QHttpSocketEngineHandler18createSocketEngineEiP7QObject T
 _ZN24QHttpSocketEngineHandler18createSocketEngineExP7QObject T
 _ZN24QHttpSocketEnginePrivateC1Ev T
 _ZN24QHttpSocketEnginePrivateC2Ev T
@@ -1745,6 +1761,7 @@ _ZN26QNetworkAccessCacheBackendD0Ev T
 _ZN26QNetworkAccessCacheBackendD1Ev T
 _ZN26QNetworkAccessCacheBackendD2Ev T
 _ZN26QSocks5SocketEngineHandler18createSocketEngineEN15QAbstractSocket10SocketTypeERK13QNetworkProxyP7QObject T
+_ZN26QSocks5SocketEngineHandler18createSocketEngineEiP7QObject T
 _ZN26QSocks5SocketEngineHandler18createSocketEngineExP7QObject T
 _ZN26QSocks5SocketEnginePrivate10initializeENS_10Socks5ModeE T
 _ZN26QSocks5SocketEnginePrivate13setErrorStateENS_11Socks5StateENS_11Socks5ErrorE T
@@ -2859,9 +2876,311 @@ _ZNK9QSslError11certificateEv T
 _ZNK9QSslError11errorStringEv T
 _ZNK9QSslError5errorEv T
 _ZNK9QSslErroreqERKS_ T
+_ZTI10QDnsLookup D 24
+_ZTI10QSslSocket D 24
+_ZTI10QTcpServer D 24
+_ZTI10QTcpSocket D 24
+_ZTI10QUdpSocket D 24
+_ZTI11QFtpPrivate D 24
+_ZTI11QSharedData D 16
+_ZTI12QLocalServer D 24
+_ZTI12QLocalSocket D 24
+_ZTI12QNetworkFile D 24
+_ZTI13QNetworkReply D 24
+_ZTI13QReadNotifier D 24
+_ZTI14QHostInfoAgent D 24
+_ZTI14QHttpMultiPart D 24
+_ZTI14QWriteNotifier D 24
+_ZTI15QAbstractSocket D 24
+_ZTI15QHostInfoResult D 24
+_ZTI16QLocalUnixSocket D 24
+_ZTI16QSocks5BindStore D 24
+_ZTI17QDnsLookupPrivate D 24
+_ZTI17QHostInfoRunnable D 24
+_ZTI17QHttpNetworkReply D 56
+_ZTI17QHttpSocketEngine D 24
+_ZTI17QNetworkCookieJar D 24
+_ZTI17QNetworkDiskCache D 24
+_ZTI17QNetworkReplyImpl D 24
+_ZTI17QSslSocketPrivate D 24
+_ZTI17QTcpServerPrivate D 56
+_ZTI17QTcpSocketPrivate D 24
+_ZTI17QUdpSocketPrivate D 24
+_ZTI18QDnsLookupRunnable D 56
+_ZTI18QExceptionNotifier D 24
+_ZTI18QHttpNetworkHeader D 16
+_ZTI19QHttpNetworkRequest D 24
+_ZTI19QHttpThreadDelegate D 24
+_ZTI19QLocalServerPrivate D 24
+_ZTI19QLocalSocketPrivate D 24
+_ZTI19QNativeSocketEngine D 24
+_ZTI19QNetworkAccessCache D 24
+_ZTI19QSocks5SocketEngine D 24
+_ZTI20QDnsLookupThreadPool D 24
+_ZTI20QHttpProtocolHandler D 24
+_ZTI20QNetworkProxyFactory D 16
+_ZTI20QNetworkReplyPrivate D 56
+_ZTI20QSocketEngineHandler D 16
+_ZTI20QSocks5Authenticator D 16
+_ZTI20QSpdyProtocolHandler D 56
+_ZTI21QAbstractNetworkCache D 24
+_ZTI21QAbstractSocketEngine D 24
+_ZTI21QHttp2ProtocolHandler D 56
+_ZTI21QHttpMultiPartPrivate D 24
+_ZTI21QNetworkAccessBackend D 24
+_ZTI21QNetworkAccessManager D 24
+_ZTI21QNetworkReplyDataImpl D 24
+_ZTI21QNetworkReplyFileImpl D 24
+_ZTI21QNetworkReplyHttpImpl D 24
+_ZTI22QAbstractSocketPrivate D 56
+_ZTI22QHostInfoLookupManager D 24
+_ZTI22QHttpMultiPartIODevice D 24
+_ZTI22QHttpNetworkConnection D 24
+_ZTI22QNetworkHeadersPrivate D 16
+_ZTI24QAbstractProtocolHandler D 16
+_ZTI24QHttpNetworkReplyPrivate D 56
+_ZTI24QHttpSocketEngineHandler D 24
+_ZTI24QHttpSocketEnginePrivate D 24
+_ZTI24QNetworkAccessFtpBackend D 24
+_ZTI24QNetworkCookieJarPrivate D 24
+_ZTI24QNetworkDiskCachePrivate D 24
+_ZTI24QNetworkReplyImplPrivate D 24
+_ZTI24QSslSocketBackendPrivate D 24
+_ZTI25QHttpNetworkHeaderPrivate D 24
+_ZTI25QNetworkAccessFileBackend D 24
+_ZTI26QNativeSocketEnginePrivate D 24
+_ZTI26QNetworkAccessCacheBackend D 24
+_ZTI26QSocks5SocketEngineHandler D 24
+_ZTI26QSocks5SocketEnginePrivate D 24
+_ZTI27QNetworkAuthenticationCache D 56
+_ZTI28QAbstractNetworkCachePrivate D 24
+_ZTI28QAbstractSocketEnginePrivate D 24
+_ZTI28QNetworkAccessBackendFactory D 16
+_ZTI28QNetworkAccessManagerPrivate D 24
+_ZTI28QNetworkConfigurationPrivate D 40
+_ZTI28QNetworkReplyDataImplPrivate D 24
+_ZTI28QNetworkReplyFileImplPrivate D 24
+_ZTI28QNetworkReplyHttpImplPrivate D 24
+_ZTI28QSocks5PasswordAuthenticator D 24
+_ZTI29QAbstractSocketEngineReceiver D 16
+_ZTI29QHttpNetworkConnectionChannel D 24
+_ZTI29QHttpNetworkConnectionPrivate D 24
+_ZTI30QAbstractHostInfoLookupManager D 24
+_ZTI31QNetworkAccessFtpBackendFactory D 24
+_ZTI32QNetworkAccessFileBackendFactory D 24
+_ZTI33QNetworkAccessCachedFtpConnection D 56
+_ZTI34QNetworkAccessCachedHttpConnection D 56
+_ZTI41QNonContiguousByteDeviceThreadForwardImpl D 24
+_ZTI4QFtp D 24
+_ZTI6QFtpPI D 24
+_ZTI7QFtpDTP D 24
+_ZTI8QUrlInfo D 16
+_ZTIN19QNetworkAccessCache15CacheableObjectE D 16
+_ZTS10QDnsLookup R 13
+_ZTS10QSslSocket R 13
+_ZTS10QTcpServer R 13
+_ZTS10QTcpSocket R 13
+_ZTS10QUdpSocket R 13
+_ZTS11QFtpPrivate D 14
+_ZTS11QSharedData D 14
+_ZTS12QLocalServer R 15
+_ZTS12QLocalSocket R 15
+_ZTS12QNetworkFile R 15
+_ZTS13QNetworkReply R 16
+_ZTS13QReadNotifier R 16
+_ZTS14QHostInfoAgent R 17
+_ZTS14QHttpMultiPart R 17
+_ZTS14QWriteNotifier R 17
+_ZTS15QAbstractSocket R 18
+_ZTS15QHostInfoResult R 18
+_ZTS16QLocalUnixSocket D 19
+_ZTS16QSocks5BindStore R 19
+_ZTS17QDnsLookupPrivate D 20
+_ZTS17QHostInfoRunnable R 20
+_ZTS17QHttpNetworkReply R 20
+_ZTS17QHttpSocketEngine R 20
+_ZTS17QNetworkCookieJar R 20
+_ZTS17QNetworkDiskCache R 20
+_ZTS17QNetworkReplyImpl R 20
+_ZTS17QSslSocketPrivate R 20
+_ZTS17QTcpServerPrivate R 20
+_ZTS17QTcpSocketPrivate D 20
+_ZTS17QUdpSocketPrivate D 20
+_ZTS18QDnsLookupRunnable R 21
+_ZTS18QExceptionNotifier R 21
+_ZTS18QHttpNetworkHeader D 21
+_ZTS19QHttpNetworkRequest R 22
+_ZTS19QHttpThreadDelegate R 22
+_ZTS19QLocalServerPrivate D 22
+_ZTS19QLocalSocketPrivate D 22
+_ZTS19QNativeSocketEngine R 22
+_ZTS19QNetworkAccessCache R 22
+_ZTS19QSocks5SocketEngine R 22
+_ZTS20QDnsLookupThreadPool R 23
+_ZTS20QHttpProtocolHandler R 23
+_ZTS20QNetworkProxyFactory R 23
+_ZTS20QNetworkReplyPrivate D 23
+_ZTS20QSocketEngineHandler R 23
+_ZTS20QSocks5Authenticator R 23
+_ZTS20QSpdyProtocolHandler R 23
+_ZTS21QAbstractNetworkCache R 24
+_ZTS21QAbstractSocketEngine R 24
+_ZTS21QHttp2ProtocolHandler R 24
+_ZTS21QHttpMultiPartPrivate D 24
+_ZTS21QNetworkAccessBackend R 24
+_ZTS21QNetworkAccessManager R 24
+_ZTS21QNetworkReplyDataImpl R 24
+_ZTS21QNetworkReplyFileImpl R 24
+_ZTS21QNetworkReplyHttpImpl R 24
+_ZTS22QAbstractSocketPrivate R 25
+_ZTS22QHostInfoLookupManager R 25
+_ZTS22QHttpMultiPartIODevice R 25
+_ZTS22QHttpNetworkConnection R 25
+_ZTS22QNetworkHeadersPrivate D 25
+_ZTS24QAbstractProtocolHandler R 27
+_ZTS24QHttpNetworkReplyPrivate R 27
+_ZTS24QHttpSocketEngineHandler R 27
+_ZTS24QHttpSocketEnginePrivate R 27
+_ZTS24QNetworkAccessFtpBackend R 27
+_ZTS24QNetworkCookieJarPrivate D 27
+_ZTS24QNetworkDiskCachePrivate D 27
+_ZTS24QNetworkReplyImplPrivate D 27
+_ZTS24QSslSocketBackendPrivate R 27
+_ZTS25QHttpNetworkHeaderPrivate D 28
+_ZTS25QNetworkAccessFileBackend R 28
+_ZTS26QNativeSocketEnginePrivate R 29
+_ZTS26QNetworkAccessCacheBackend R 29
+_ZTS26QSocks5SocketEngineHandler R 29
+_ZTS26QSocks5SocketEnginePrivate R 29
+_ZTS27QNetworkAuthenticationCache D 30
+_ZTS28QAbstractNetworkCachePrivate D 31
+_ZTS28QAbstractSocketEnginePrivate D 31
+_ZTS28QNetworkAccessBackendFactory R 31
+_ZTS28QNetworkAccessManagerPrivate R 31
+_ZTS28QNetworkConfigurationPrivate D 31
+_ZTS28QNetworkReplyDataImplPrivate R 31
+_ZTS28QNetworkReplyFileImplPrivate D 31
+_ZTS28QNetworkReplyHttpImplPrivate R 31
+_ZTS28QSocks5PasswordAuthenticator R 31
+_ZTS29QAbstractSocketEngineReceiver D 32
+_ZTS29QHttpNetworkConnectionChannel R 32
+_ZTS29QHttpNetworkConnectionPrivate R 32
+_ZTS30QAbstractHostInfoLookupManager R 33
+_ZTS31QNetworkAccessFtpBackendFactory R 34
+_ZTS32QNetworkAccessFileBackendFactory R 35
+_ZTS33QNetworkAccessCachedFtpConnection D 36
+_ZTS34QNetworkAccessCachedHttpConnection D 37
+_ZTS41QNonContiguousByteDeviceThreadForwardImpl R 44
+_ZTS4QFtp R 6
+_ZTS6QFtpPI R 8
+_ZTS7QFtpDTP R 9
+_ZTS8QUrlInfo R 10
+_ZTSN19QNetworkAccessCache15CacheableObjectE R 41
+_ZTV10QDnsLookup D 120
+_ZTV10QSslSocket D 336
+_ZTV10QTcpServer D 144
+_ZTV10QTcpSocket D 336
+_ZTV10QUdpSocket D 336
+_ZTV11QFtpPrivate D 32
+_ZTV12QLocalServer D 144
+_ZTV12QLocalSocket D 248
+_ZTV12QNetworkFile D 280
+_ZTV13QNetworkReply D 296
+_ZTV13QReadNotifier D 120
+_ZTV14QHostInfoAgent D 120
+_ZTV14QHttpMultiPart D 120
+_ZTV14QWriteNotifier D 120
+_ZTV15QAbstractSocket D 336
+_ZTV15QHostInfoResult D 120
+_ZTV16QLocalUnixSocket D 336
+_ZTV16QSocks5BindStore D 120
+_ZTV17QDnsLookupPrivate D 32
+_ZTV17QHostInfoRunnable D 40
+_ZTV17QHttpNetworkReply D 296
+_ZTV17QHttpSocketEngine D 352
+_ZTV17QNetworkCookieJar D 168
+_ZTV17QNetworkDiskCache D 192
+_ZTV17QNetworkReplyImpl D 296
+_ZTV17QSslSocketPrivate D 288
+_ZTV17QTcpServerPrivate D 168
+_ZTV17QTcpSocketPrivate D 224
+_ZTV17QUdpSocketPrivate D 224
+_ZTV18QDnsLookupRunnable D 168
+_ZTV18QExceptionNotifier D 120
+_ZTV19QHttpNetworkRequest D 104
+_ZTV19QHttpThreadDelegate D 120
+_ZTV19QLocalServerPrivate D 32
+_ZTV19QLocalSocketPrivate D 56
+_ZTV19QNativeSocketEngine D 352
+_ZTV19QNetworkAccessCache D 120
+_ZTV19QSocks5SocketEngine D 352
+_ZTV20QDnsLookupThreadPool D 120
+_ZTV20QHttpProtocolHandler D 56
+_ZTV20QNetworkProxyFactory D 40
+_ZTV20QNetworkReplyPrivate D 56
+_ZTV20QSocketEngineHandler D 48
+_ZTV20QSocks5Authenticator D 88
+_ZTV20QSpdyProtocolHandler D 200
+_ZTV21QAbstractNetworkCache D 184
+_ZTV21QAbstractSocketEngine D 352
+_ZTV21QHttp2ProtocolHandler D 200
+_ZTV21QHttpMultiPartPrivate D 32
+_ZTV21QNetworkAccessBackend D 240
+_ZTV21QNetworkAccessManager D 128
+_ZTV21QNetworkReplyDataImpl D 296
+_ZTV21QNetworkReplyFileImpl D 296
+_ZTV21QNetworkReplyHttpImpl D 296
+_ZTV22QAbstractSocketPrivate D 224
+_ZTV22QHostInfoLookupManager D 128
+_ZTV22QHttpMultiPartIODevice D 248
+_ZTV22QHttpNetworkConnection D 120
+_ZTV24QAbstractProtocolHandler D 56
+_ZTV24QHttpNetworkReplyPrivate D 32
+_ZTV24QHttpSocketEngineHandler D 48
+_ZTV24QHttpSocketEnginePrivate D 32
+_ZTV24QNetworkAccessFtpBackend D 240
+_ZTV24QNetworkCookieJarPrivate D 32
+_ZTV24QNetworkDiskCachePrivate D 32
+_ZTV24QNetworkReplyImplPrivate D 56
+_ZTV24QSslSocketBackendPrivate D 288
+_ZTV25QNetworkAccessFileBackend D 240
+_ZTV26QNativeSocketEnginePrivate D 32
+_ZTV26QNetworkAccessCacheBackend D 240
+_ZTV26QSocks5SocketEngineHandler D 48
+_ZTV26QSocks5SocketEnginePrivate D 32
+_ZTV27QNetworkAuthenticationCache D 40
+_ZTV28QAbstractNetworkCachePrivate D 32
+_ZTV28QAbstractSocketEnginePrivate D 32
+_ZTV28QNetworkAccessBackendFactory D 48
+_ZTV28QNetworkAccessManagerPrivate D 32
+_ZTV28QNetworkConfigurationPrivate D 32
+_ZTV28QNetworkReplyDataImplPrivate D 56
+_ZTV28QNetworkReplyFileImplPrivate D 56
+_ZTV28QNetworkReplyHttpImplPrivate D 56
+_ZTV28QSocks5PasswordAuthenticator D 88
+_ZTV29QHttpNetworkConnectionChannel D 120
+_ZTV29QHttpNetworkConnectionPrivate D 32
+_ZTV30QAbstractHostInfoLookupManager D 128
+_ZTV31QNetworkAccessFtpBackendFactory D 48
+_ZTV32QNetworkAccessFileBackendFactory D 48
+_ZTV33QNetworkAccessCachedFtpConnection D 168
+_ZTV34QNetworkAccessCachedHttpConnection D 168
+_ZTV41QNonContiguousByteDeviceThreadForwardImpl D 168
+_ZTV4QFtp D 120
+_ZTV6QFtpPI D 120
+_ZTV7QFtpDTP D 120
+_ZTV8QUrlInfo D 120
+_ZTVN19QNetworkAccessCache15CacheableObjectE D 40
 _ZThn112_N17QTcpServerPrivate16readNotificationEv T
 _ZThn112_N17QTcpServerPrivateD0Ev T
 _ZThn112_N17QTcpServerPrivateD1Ev T
+_ZThn144_N17QSslSocketPrivateD0Ev T
+_ZThn144_N17QSslSocketPrivateD1Ev T
+_ZThn144_N22QAbstractSocketPrivate22connectionNotificationEv T
+_ZThn144_N22QAbstractSocketPrivateD0Ev T
+_ZThn144_N22QAbstractSocketPrivateD1Ev T
+_ZThn144_N24QSslSocketBackendPrivateD0Ev T
+_ZThn144_N24QSslSocketBackendPrivateD1Ev T
 _ZThn16_N17QHttpNetworkReply14setHeaderFieldERK10QByteArrayS2_ T
 _ZThn16_N17QHttpNetworkReply16setContentLengthEx T
 _ZThn16_N17QHttpNetworkReply6setUrlERK4QUrl T
@@ -2889,6 +3208,29 @@ _ZThn216_N22QAbstractSocketPrivateD0Ev T
 _ZThn216_N22QAbstractSocketPrivateD1Ev T
 _ZThn216_N24QSslSocketBackendPrivateD0Ev T
 _ZThn216_N24QSslSocketBackendPrivateD1Ev T
+_ZThn64_N17QTcpServerPrivate16readNotificationEv T
+_ZThn64_N17QTcpServerPrivateD0Ev T
+_ZThn64_N17QTcpServerPrivateD1Ev T
+_ZThn8_N17QHttpNetworkReply14setHeaderFieldERK10QByteArrayS2_ T
+_ZThn8_N17QHttpNetworkReply16setContentLengthEx T
+_ZThn8_N17QHttpNetworkReply6setUrlERK4QUrl T
+_ZThn8_N17QHttpNetworkReplyD0Ev T
+_ZThn8_N17QHttpNetworkReplyD1Ev T
+_ZThn8_N18QDnsLookupRunnable3runEv T
+_ZThn8_N20QSpdyProtocolHandler11sendRequestEv T
+_ZThn8_N20QSpdyProtocolHandler12_q_readyReadEv T
+_ZThn8_N20QSpdyProtocolHandler15_q_receiveReplyEv T
+_ZThn8_N20QSpdyProtocolHandlerD0Ev T
+_ZThn8_N20QSpdyProtocolHandlerD1Ev T
+_ZThn8_N21QHttp2ProtocolHandler11sendRequestEv T
+_ZThn8_N21QHttp2ProtocolHandler12_q_readyReadEv T
+_ZThn8_N21QHttp2ProtocolHandler15_q_receiveReplyEv T
+_ZThn8_NK17QHttpNetworkReply11headerFieldERK10QByteArrayS2_ T
+_ZThn8_NK17QHttpNetworkReply12majorVersionEv T
+_ZThn8_NK17QHttpNetworkReply12minorVersionEv T
+_ZThn8_NK17QHttpNetworkReply13contentLengthEv T
+_ZThn8_NK17QHttpNetworkReply3urlEv T
+_ZThn8_NK17QHttpNetworkReply6headerEv T
 _ZeqRK27QSslDiffieHellmanParametersS1_ T
 _ZeqRK29QSslPreSharedKeyAuthenticatorS1_ T
 _Zls6QDebug17QSslEllipticCurve T
@@ -2910,11 +3252,3 @@ _ZlsR11QDataStreamRK12QHostAddress T
 _ZlsR11QDataStreamRK21QNetworkCacheMetaData T
 _ZrsR11QDataStreamR12QHostAddress T
 _ZrsR11QDataStreamR21QNetworkCacheMetaData T
-
-# manually added typeinfo symbols
-
-_ZTI13QNetworkReply V
-_ZTI17QNetworkCookieJar V
-_ZTI17QNetworkDiskCache V
-_ZTI20QNetworkProxyFactory V
-_ZTI21QNetworkAccessManager V

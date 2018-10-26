@@ -3553,6 +3553,8 @@ _ZN3WTF14dataLogFStringEPKc T
 _ZN3WTF15FilePrintStream4openEPKcS2_ T
 _ZN3WTF15FilePrintStream5flushEv T
 _ZN3WTF15FilePrintStream7vprintfEPKcP13__va_list_tag T
+_ZN3WTF15FilePrintStream7vprintfEPKcPc T
+_ZN3WTF15FilePrintStream7vprintfEPKcSt9__va_list T
 _ZN3WTF15FilePrintStreamC1EP7__sFILENS0_12AdoptionModeE T
 _ZN3WTF15FilePrintStreamC2EP7__sFILENS0_12AdoptionModeE T
 _ZN3WTF15FilePrintStreamD0Ev T
@@ -3567,6 +3569,8 @@ _ZN3WTF8fastFreeEPv T
 _ZN3WTF8pageMaskEv T
 _ZN3WTF8pageSizeEv T
 _ZN3WTF9dataLogFVEPKcP13__va_list_tag T
+_ZN3WTF9dataLogFVEPKcPc T
+_ZN3WTF9dataLogFVEPKcSt9__va_list T
 _ZN41QQmlDeferredAndCustomParserBindingScanner10scanObjectEi T
 _ZN41QQmlDeferredAndCustomParserBindingScanner10scanObjectEv T
 _ZN41QQmlDeferredAndCustomParserBindingScannerC1EP16QQmlTypeCompiler T
@@ -4842,6 +4846,839 @@ _ZNK9QQmlTimer16triggeredOnStartEv T
 _ZNK9QQmlTimer8intervalEv T
 _ZNK9QQmlTimer9isRunningEv T
 _ZNK9QV8Engine12illegalNamesEv T
+_ZTI10QQmlEngine D 24
+_ZTI10QQmlThread D 16
+_ZTI10QV4Include D 24
+_ZTI11QQmlBinding D 56
+_ZTI11QQmlCleanup D 16
+_ZTI11QQmlContext D 24
+_ZTI12QQmlDataBlob D 24
+_ZTI12QQmlPlatform D 24
+_ZTI12QQmlRefCount D 16
+_ZTI12QQmlTypeData D 24
+_ZTI13QQmlComponent D 24
+_ZTI13QQmlGuardImpl D 16
+_ZTI13QQmlIncubator D 16
+_ZTI13QQmlListModel D 24
+_ZTI13QQmlValueType D 56
+_ZTI13QQuickPackage D 24
+_ZTI14QQmlExpression D 24
+_ZTI14QQmlPartsModel D 56
+_ZTI14QQmlQmldirData D 24
+_ZTI14QQmlScriptBlob D 24
+_ZTI14QQmlScriptData D 56
+_ZTI15QQmlApplication D 24
+_ZTI15QQmlBindPrivate D 24
+_ZTI15QQmlCompilePass D 16
+_ZTI15QQmlConnections D 56
+_ZTI15QQmlGuiProvider D 16
+_ZTI15QQmlListElement D 24
+_ZTI15QQmlObjectModel D 24
+_ZTI15QQmlPropertyMap D 24
+_ZTI15WorkerDataEvent D 24
+_ZTI15WorkerLoadEvent D 24
+_ZTI16QJSEnginePrivate D 24
+_ZTI16QQmlAdaptorModel D 24
+_ZTI16QQmlCustomParser D 16
+_ZTI16QQmlDMObjectData D 56
+_ZTI16QQmlFileSelector D 24
+_ZTI16QQmlInstantiator D 56
+_ZTI16QQmlParserStatus D 16
+_ZTI16QQmlTimerPrivate D 56
+_ZTI16WorkerErrorEvent D 24
+_ZTI17QQmlColorProvider D 16
+_ZTI17QQmlDelegateModel D 56
+_ZTI17QQmlEnginePrivate D 24
+_ZTI17QQmlInstanceModel D 24
+_ZTI17QQmlPropertyCache D 56
+_ZTI17QQmlThreadPrivate D 24
+_ZTI17QQmlTypeNameCache D 24
+_ZTI17QQmlVMEMetaObject D 24
+_ZTI17WorkerRemoveEvent D 24
+_ZTI18QAnimationGroupJob D 24
+_ZTI18QPauseAnimationJob D 24
+_ZTI18QQDMIncubationTask D 24
+_ZTI18QQmlAnimationTimer D 24
+_ZTI18QQmlBindingBinding D 24
+_ZTI18QQmlContextPrivate D 24
+_ZTI18QQmlOpenMetaObject D 24
+_ZTI18QQmlXMLHttpRequest D 24
+_ZTI18QQuickWorkerScript D 56
+_ZTI19ModelNodeMetaObject D 24
+_ZTI19QQmlAbstractBinding D 16
+_ZTI19QQmlExtensionPlugin D 56
+_ZTI19QQmlListModelParser D 24
+_ZTI19QQmlLoggingCategory D 56
+_ZTI19QQmlPropertyPrivate D 24
+_ZTI19QQmlProxyMetaObject D 24
+_ZTI20DynamicRoleModelNode D 24
+_ZTI20EmptyCompilationUnit D 24
+_ZTI20QQmlComponentPrivate D 56
+_ZTI20QQmlDelayedCallQueue D 24
+_ZTI20QQmlFileNetworkReply D 24
+_ZTI20QQmlTypeLoaderThread D 24
+_ZTI20QQmlTypeNotAvailable D 24
+_ZTI20QQuickPackagePrivate D 24
+_ZTI21QAbstractAnimationJob D 16
+_ZTI21QObjectPointerBinding D 24
+_ZTI21QQmlApplicationEngine D 24
+_ZTI21QQmlComponentAttached D 24
+_ZTI21QQmlConnectionsParser D 24
+_ZTI21QQmlDMCachedModelData D 24
+_ZTI21QQmlDelegateModelItem D 24
+_ZTI21QQmlExpressionPrivate D 56
+_ZTI21QQmlImageProviderBase D 16
+_ZTI21QQmlNonbindingBinding D 24
+_ZTI21QQmlValueTypeProvider D 16
+_ZTI21QQuickPackageAttached D 24
+_ZTI22QQmlApplicationPrivate D 24
+_ZTI22QQmlBoundSignalDeleter D 24
+_ZTI22QQmlComponentExtension D 24
+_ZTI22QQmlComponentIncubator D 24
+_ZTI22QQmlConnectionsPrivate D 24
+_ZTI22QQmlDMListAccessorData D 24
+_ZTI22QQmlDelegateModelGroup D 24
+_ZTI22QQmlDelegateModelParts D 24
+_ZTI22QQmlExtensionInterface D 24
+_ZTI22QQmlIRFunctionCleanser D 40
+_ZTI22QQmlObjectModelPrivate D 24
+_ZTI22QQmlOpenMetaObjectType D 56
+_ZTI22QQmlPropertyMapPrivate D 24
+_ZTI22QV4LocaleDataDeletable D 24
+_ZTI23QQmlFileSelectorPrivate D 24
+_ZTI23QQmlInstantiatorPrivate D 24
+_ZTI23QQmlObjectModelAttached D 24
+_ZTI23QQmlPropertyValueSource D 16
+_ZTI23VDMListDelegateDataType D 24
+_ZTI24QQmlDelegateModelPrivate D 56
+_ZTI24QQmlIncubationController D 16
+_ZTI24QQmlJavaScriptExpression D 16
+_ZTI24QQmlListModelWorkerAgent D 24
+_ZTI24QQmlVMEVariantQObjectPtr D 24
+_ZTI24QQuickWorkerScriptEngine D 24
+_ZTI24VDMModelDelegateDataType D 72
+_ZTI25QQmlBoundSignalExpression D 56
+_ZTI25QQmlDelegateModelAttached D 24
+_ZTI25QQmlInterceptorMetaObject D 24
+_ZTI25QQmlPropertyMapMetaObject D 24
+_ZTI25QQmlValueTypeProxyBinding D 24
+_ZTI25VDMObjectDelegateDataType D 56
+_ZTI26QParallelAnimationGroupJob D 24
+_ZTI26QQmlAbstractUrlInterceptor D 16
+_ZTI26QQmlAdaptorModelEngineData D 24
+_ZTI26QQmlDMObjectDataMetaObject D 24
+_ZTI26QQmlExtensionPluginPrivate D 24
+_ZTI27QAnimationJobChangeListener D 16
+_ZTI27QQmlDMAbstractItemModelData D 24
+_ZTI27QQmlDelegateModelEngineData D 24
+_ZTI27QQmlFileSelectorInterceptor D 24
+_ZTI27QQmlTypesExtensionInterface D 16
+_ZTI28QContinuingAnimationGroupJob D 24
+_ZTI28QQmlApplicationEnginePrivate D 24
+_ZTI28QQmlPropertyValueInterceptor D 16
+_ZTI28QSequentialAnimationGroupJob D 24
+_ZTI28VDMAbstractItemModelDataType D 24
+_ZTI29QQmlDelegateModelGroupEmitter D 16
+_ZTI29QQmlDelegateModelGroupPrivate D 24
+_ZTI29QQmlDelegateModelItemMetaType D 24
+_ZTI29QQmlThreadNotifierProxyObject D 24
+_ZTI30DynamicRoleModelNodeMetaObject D 24
+_ZTI30QQmlAdaptorModelProxyInterface D 16
+_ZTI31QQmlNetworkAccessManagerFactory D 16
+_ZTI31QQmlTypeLoaderNetworkReplyProxy D 24
+_ZTI31QQuickWorkerScriptEnginePrivate D 24
+_ZTI32QQmlDelegateModelPartsMetaObject D 24
+_ZTI35QQmlDelegateModelAttachedMetaObject D 56
+_ZTI8QQmlBind D 72
+_ZTI9QJSEngine D 24
+_ZTI9QQmlTimer D 56
+_ZTI9QV8Engine D 16
+_ZTIN10QQmlThread7MessageE D 16
+_ZTIN12QQmlTypeData16TypeDataCallbackE D 16
+_ZTIN14QQmlTypeLoader4BlobE D 24
+_ZTIN15QQmlContextData12ContextGuardE D 24
+_ZTIN16QQmlAdaptorModel9AccessorsE D 16
+_ZTIN17QQmlEnginePrivate9DeletableE D 16
+_ZTIN17QQmlThreadPrivate10MainObjectE D 24
+_ZTIN20QQuickPackagePrivate9DataGuardE D 24
+_ZTIN24QQmlListModelWorkerAgent4SyncE D 24
+_ZTIN31QQuickWorkerScriptEnginePrivate12WorkerEngineE D 24
+_ZTIN3QV412CompiledData15CompilationUnitE D 24
+_ZTIN3QV412ConvertTempsE D 16
+_ZTIN3QV412DocumentImplE D 56
+_ZTIN3QV415EvalISelFactoryE D 16
+_ZTIN3QV424EvalInstructionSelectionE D 16
+_ZTIN3QV425MultiplyWrappedQObjectMapE D 56
+_ZTIN3QV42IR18AllocateStackSlotsE D 40
+_ZTIN3QV42IR9IRDecoderE D 16
+_ZTIN3QV42IR9IRPrinterE D 16
+_ZTIN3QV43JIT12RegAllocInfoE D 24
+_ZTIN3QV44Moth11ISelFactoryE D 24
+_ZTIN3QV44Moth15CompilationUnitE D 24
+_ZTIN3QV44Moth20InstructionSelectionE D 56
+_ZTIN3QV48NodeImplE D 16
+_ZTIN3WTF11PrintStreamE D 16
+_ZTIN3WTF15FilePrintStreamE D 24
+_ZTIN5QmlIR25ScriptDirectivesCollectorE D 24
+_ZTIN5QmlIR9IRBuilderE D 24
+_ZTIN5QmlIR9JSCodeGenE D 24
+_ZTIN6QQmlJS10DirectivesE D 16
+_ZTIN6QQmlJS14RuntimeCodegenE D 24
+_ZTIN6QQmlJS3AST10CaseClauseE D 24
+_ZTIN6QQmlJS3AST10ExpressionE D 24
+_ZTIN6QQmlJS3AST11CaseClausesE D 24
+_ZTIN6QQmlJS3AST11ElementListE D 24
+_ZTIN6QQmlJS3AST11IfStatementE D 24
+_ZTIN6QQmlJS3AST11TrueLiteralE D 24
+_ZTIN6QQmlJS3AST12ArgumentListE D 24
+_ZTIN6QQmlJS3AST12ArrayLiteralE D 24
+_ZTIN6QQmlJS3AST12FalseLiteralE D 24
+_ZTIN6QQmlJS3AST12ForStatementE D 24
+_ZTIN6QQmlJS3AST12FunctionBodyE D 24
+_ZTIN6QQmlJS3AST12PropertyNameE D 24
+_ZTIN6QQmlJS3AST12TryStatementE D 24
+_ZTIN6QQmlJS3AST13DefaultClauseE D 24
+_ZTIN6QQmlJS3AST13NewExpressionE D 24
+_ZTIN6QQmlJS3AST13NotExpressionE D 24
+_ZTIN6QQmlJS3AST13ObjectLiteralE D 24
+_ZTIN6QQmlJS3AST13RegExpLiteralE D 24
+_ZTIN6QQmlJS3AST13SourceElementE D 24
+_ZTIN6QQmlJS3AST13StatementListE D 24
+_ZTIN6QQmlJS3AST13StringLiteralE D 24
+_ZTIN6QQmlJS3AST13UiQualifiedIdE D 24
+_ZTIN6QQmlJS3AST13WithStatementE D 24
+_ZTIN6QQmlJS3AST14BreakStatementE D 24
+_ZTIN6QQmlJS3AST14CallExpressionE D 24
+_ZTIN6QQmlJS3AST14EmptyStatementE D 24
+_ZTIN6QQmlJS3AST14ExpressionNodeE D 24
+_ZTIN6QQmlJS3AST14NullExpressionE D 24
+_ZTIN6QQmlJS3AST14NumericLiteralE D 24
+_ZTIN6QQmlJS3AST14SourceElementsE D 24
+_ZTIN6QQmlJS3AST14ThisExpressionE D 24
+_ZTIN6QQmlJS3AST14ThrowStatementE D 24
+_ZTIN6QQmlJS3AST14UiArrayBindingE D 24
+_ZTIN6QQmlJS3AST14UiObjectMemberE D 24
+_ZTIN6QQmlJS3AST14UiPublicMemberE D 24
+_ZTIN6QQmlJS3AST14VoidExpressionE D 24
+_ZTIN6QQmlJS3AST14WhileStatementE D 24
+_ZTIN6QQmlJS3AST15ReturnStatementE D 24
+_ZTIN6QQmlJS3AST15SwitchStatementE D 24
+_ZTIN6QQmlJS3AST15TildeExpressionE D 24
+_ZTIN6QQmlJS3AST15UiObjectBindingE D 24
+_ZTIN6QQmlJS3AST15UiParameterListE D 24
+_ZTIN6QQmlJS3AST15UiScriptBindingE D 24
+_ZTIN6QQmlJS3AST15UiSourceElementE D 24
+_ZTIN6QQmlJS3AST16BinaryExpressionE D 24
+_ZTIN6QQmlJS3AST16DeleteExpressionE D 24
+_ZTIN6QQmlJS3AST16DoWhileStatementE D 24
+_ZTIN6QQmlJS3AST16ForEachStatementE D 24
+_ZTIN6QQmlJS3AST16NestedExpressionE D 24
+_ZTIN6QQmlJS3AST16TypeOfExpressionE D 24
+_ZTIN6QQmlJS3AST16UiHeaderItemListE D 24
+_ZTIN6QQmlJS3AST17ContinueStatementE D 24
+_ZTIN6QQmlJS3AST17DebuggerStatementE D 24
+_ZTIN6QQmlJS3AST17LabelledStatementE D 24
+_ZTIN6QQmlJS3AST17LocalForStatementE D 24
+_ZTIN6QQmlJS3AST17UiArrayMemberListE D 24
+_ZTIN6QQmlJS3AST17VariableStatementE D 24
+_ZTIN6QQmlJS3AST18FunctionExpressionE D 24
+_ZTIN6QQmlJS3AST18PropertyAssignmentE D 24
+_ZTIN6QQmlJS3AST18UiObjectDefinitionE D 24
+_ZTIN6QQmlJS3AST18UiObjectMemberListE D 24
+_ZTIN6QQmlJS3AST19ExpressionStatementE D 24
+_ZTIN6QQmlJS3AST19FormalParameterListE D 24
+_ZTIN6QQmlJS3AST19FunctionDeclarationE D 24
+_ZTIN6QQmlJS3AST19NewMemberExpressionE D 24
+_ZTIN6QQmlJS3AST19UiObjectInitializerE D 24
+_ZTIN6QQmlJS3AST19UiQualifiedPragmaIdE D 24
+_ZTIN6QQmlJS3AST19UnaryPlusExpressionE D 24
+_ZTIN6QQmlJS3AST19VariableDeclarationE D 24
+_ZTIN6QQmlJS3AST20IdentifierExpressionE D 24
+_ZTIN6QQmlJS3AST20PropertyGetterSetterE D 24
+_ZTIN6QQmlJS3AST20PropertyNameAndValueE D 24
+_ZTIN6QQmlJS3AST20UnaryMinusExpressionE D 24
+_ZTIN6QQmlJS3AST21ArrayMemberExpressionE D 24
+_ZTIN6QQmlJS3AST21ConditionalExpressionE D 24
+_ZTIN6QQmlJS3AST21FieldMemberExpressionE D 24
+_ZTIN6QQmlJS3AST21FunctionSourceElementE D 24
+_ZTIN6QQmlJS3AST21LocalForEachStatementE D 24
+_ZTIN6QQmlJS3AST22IdentifierPropertyNameE D 24
+_ZTIN6QQmlJS3AST22PreDecrementExpressionE D 24
+_ZTIN6QQmlJS3AST22PreIncrementExpressionE D 24
+_ZTIN6QQmlJS3AST22PropertyAssignmentListE D 24
+_ZTIN6QQmlJS3AST22StatementSourceElementE D 24
+_ZTIN6QQmlJS3AST23PostDecrementExpressionE D 24
+_ZTIN6QQmlJS3AST23PostIncrementExpressionE D 24
+_ZTIN6QQmlJS3AST23VariableDeclarationListE D 24
+_ZTIN6QQmlJS3AST25StringLiteralPropertyNameE D 24
+_ZTIN6QQmlJS3AST26NumericLiteralPropertyNameE D 24
+_ZTIN6QQmlJS3AST4NodeE D 24
+_ZTIN6QQmlJS3AST5BlockE D 24
+_ZTIN6QQmlJS3AST5CatchE D 24
+_ZTIN6QQmlJS3AST7ElisionE D 24
+_ZTIN6QQmlJS3AST7FinallyE D 24
+_ZTIN6QQmlJS3AST7ProgramE D 24
+_ZTIN6QQmlJS3AST7VisitorE D 16
+_ZTIN6QQmlJS3AST8UiImportE D 24
+_ZTIN6QQmlJS3AST8UiPragmaE D 24
+_ZTIN6QQmlJS3AST9CaseBlockE D 24
+_ZTIN6QQmlJS3AST9StatementE D 24
+_ZTIN6QQmlJS3AST9UiProgramE D 24
+_ZTIN6QQmlJS7Codegen13ScanFunctionsE D 40
+_ZTIN6QQmlJS7CodegenE D 40
+_ZTIN6QQmlJS7ManagedE D 16
+_ZTIN9QV8Engine9DeletableE D 16
+_ZTS10QQmlEngine R 13
+_ZTS10QQmlThread R 13
+_ZTS10QV4Include R 13
+_ZTS11QQmlBinding R 14
+_ZTS11QQmlCleanup R 14
+_ZTS11QQmlContext R 14
+_ZTS12QQmlDataBlob R 15
+_ZTS12QQmlPlatform R 15
+_ZTS12QQmlRefCount D 15
+_ZTS12QQmlTypeData R 15
+_ZTS13QQmlComponent R 16
+_ZTS13QQmlGuardImpl D 16
+_ZTS13QQmlIncubator R 16
+_ZTS13QQmlListModel R 16
+_ZTS13QQmlValueType R 16
+_ZTS13QQuickPackage R 16
+_ZTS14QQmlExpression R 17
+_ZTS14QQmlPartsModel R 17
+_ZTS14QQmlQmldirData R 17
+_ZTS14QQmlScriptBlob R 17
+_ZTS14QQmlScriptData R 17
+_ZTS15QQmlApplication R 18
+_ZTS15QQmlBindPrivate D 18
+_ZTS15QQmlCompilePass D 18
+_ZTS15QQmlConnections R 18
+_ZTS15QQmlGuiProvider R 18
+_ZTS15QQmlListElement R 18
+_ZTS15QQmlObjectModel R 18
+_ZTS15QQmlPropertyMap R 18
+_ZTS15WorkerDataEvent R 18
+_ZTS15WorkerLoadEvent D 18
+_ZTS16QJSEnginePrivate R 19
+_ZTS16QQmlAdaptorModel R 19
+_ZTS16QQmlCustomParser D 19
+_ZTS16QQmlDMObjectData R 19
+_ZTS16QQmlFileSelector R 19
+_ZTS16QQmlInstantiator R 19
+_ZTS16QQmlParserStatus R 19
+_ZTS16QQmlTimerPrivate R 19
+_ZTS16WorkerErrorEvent D 19
+_ZTS17QQmlColorProvider R 20
+_ZTS17QQmlDelegateModel R 20
+_ZTS17QQmlEnginePrivate R 20
+_ZTS17QQmlInstanceModel R 20
+_ZTS17QQmlPropertyCache R 20
+_ZTS17QQmlThreadPrivate R 20
+_ZTS17QQmlTypeNameCache R 20
+_ZTS17QQmlVMEMetaObject R 20
+_ZTS17WorkerRemoveEvent D 20
+_ZTS18QAnimationGroupJob R 21
+_ZTS18QPauseAnimationJob R 21
+_ZTS18QQDMIncubationTask R 21
+_ZTS18QQmlAnimationTimer R 21
+_ZTS18QQmlBindingBinding D 21
+_ZTS18QQmlContextPrivate D 21
+_ZTS18QQmlOpenMetaObject R 21
+_ZTS18QQmlXMLHttpRequest R 21
+_ZTS18QQuickWorkerScript R 21
+_ZTS19ModelNodeMetaObject R 22
+_ZTS19QQmlAbstractBinding R 22
+_ZTS19QQmlExtensionPlugin R 22
+_ZTS19QQmlListModelParser R 22
+_ZTS19QQmlLoggingCategory R 22
+_ZTS19QQmlPropertyPrivate D 22
+_ZTS19QQmlProxyMetaObject R 22
+_ZTS20DynamicRoleModelNode R 23
+_ZTS20EmptyCompilationUnit D 23
+_ZTS20QQmlComponentPrivate R 23
+_ZTS20QQmlDelayedCallQueue R 23
+_ZTS20QQmlFileNetworkReply R 23
+_ZTS20QQmlTypeLoaderThread R 23
+_ZTS20QQmlTypeNotAvailable R 23
+_ZTS20QQuickPackagePrivate D 23
+_ZTS21QAbstractAnimationJob R 24
+_ZTS21QObjectPointerBinding D 24
+_ZTS21QQmlApplicationEngine R 24
+_ZTS21QQmlComponentAttached R 24
+_ZTS21QQmlConnectionsParser R 24
+_ZTS21QQmlDMCachedModelData R 24
+_ZTS21QQmlDelegateModelItem R 24
+_ZTS21QQmlExpressionPrivate R 24
+_ZTS21QQmlImageProviderBase R 24
+_ZTS21QQmlNonbindingBinding D 24
+_ZTS21QQmlValueTypeProvider R 24
+_ZTS21QQuickPackageAttached R 24
+_ZTS22QQmlApplicationPrivate D 25
+_ZTS22QQmlBoundSignalDeleter D 25
+_ZTS22QQmlComponentExtension R 25
+_ZTS22QQmlComponentIncubator D 25
+_ZTS22QQmlConnectionsPrivate D 25
+_ZTS22QQmlDMListAccessorData R 25
+_ZTS22QQmlDelegateModelGroup R 25
+_ZTS22QQmlDelegateModelParts R 25
+_ZTS22QQmlExtensionInterface D 25
+_ZTS22QQmlIRFunctionCleanser D 25
+_ZTS22QQmlObjectModelPrivate D 25
+_ZTS22QQmlOpenMetaObjectType R 25
+_ZTS22QQmlPropertyMapPrivate D 25
+_ZTS22QV4LocaleDataDeletable R 25
+_ZTS23QQmlFileSelectorPrivate R 26
+_ZTS23QQmlInstantiatorPrivate R 26
+_ZTS23QQmlObjectModelAttached R 26
+_ZTS23QQmlPropertyValueSource R 26
+_ZTS23VDMListDelegateDataType D 26
+_ZTS24QQmlDelegateModelPrivate R 27
+_ZTS24QQmlIncubationController R 27
+_ZTS24QQmlJavaScriptExpression R 27
+_ZTS24QQmlListModelWorkerAgent R 27
+_ZTS24QQmlVMEVariantQObjectPtr D 27
+_ZTS24QQuickWorkerScriptEngine R 27
+_ZTS24VDMModelDelegateDataType D 27
+_ZTS25QQmlBoundSignalExpression R 28
+_ZTS25QQmlDelegateModelAttached R 28
+_ZTS25QQmlInterceptorMetaObject R 28
+_ZTS25QQmlPropertyMapMetaObject R 28
+_ZTS25QQmlValueTypeProxyBinding R 28
+_ZTS25VDMObjectDelegateDataType D 28
+_ZTS26QParallelAnimationGroupJob R 29
+_ZTS26QQmlAbstractUrlInterceptor D 29
+_ZTS26QQmlAdaptorModelEngineData R 29
+_ZTS26QQmlDMObjectDataMetaObject D 29
+_ZTS26QQmlExtensionPluginPrivate D 29
+_ZTS27QAnimationJobChangeListener R 30
+_ZTS27QQmlDMAbstractItemModelData R 30
+_ZTS27QQmlDelegateModelEngineData R 30
+_ZTS27QQmlFileSelectorInterceptor R 30
+_ZTS27QQmlTypesExtensionInterface D 30
+_ZTS28QContinuingAnimationGroupJob R 31
+_ZTS28QQmlApplicationEnginePrivate R 31
+_ZTS28QQmlPropertyValueInterceptor R 31
+_ZTS28QSequentialAnimationGroupJob R 31
+_ZTS28VDMAbstractItemModelDataType D 31
+_ZTS29QQmlDelegateModelGroupEmitter D 32
+_ZTS29QQmlDelegateModelGroupPrivate D 32
+_ZTS29QQmlDelegateModelItemMetaType R 32
+_ZTS29QQmlThreadNotifierProxyObject D 32
+_ZTS30DynamicRoleModelNodeMetaObject R 33
+_ZTS30QQmlAdaptorModelProxyInterface D 33
+_ZTS31QQmlNetworkAccessManagerFactory R 34
+_ZTS31QQmlTypeLoaderNetworkReplyProxy R 34
+_ZTS31QQuickWorkerScriptEnginePrivate R 34
+_ZTS32QQmlDelegateModelPartsMetaObject R 35
+_ZTS35QQmlDelegateModelAttachedMetaObject R 38
+_ZTS8QQmlBind R 10
+_ZTS9QJSEngine R 11
+_ZTS9QQmlTimer R 11
+_ZTS9QV8Engine R 11
+_ZTSN10QQmlThread7MessageE D 23
+_ZTSN12QQmlTypeData16TypeDataCallbackE R 35
+_ZTSN14QQmlTypeLoader4BlobE R 24
+_ZTSN15QQmlContextData12ContextGuardE D 34
+_ZTSN16QQmlAdaptorModel9AccessorsE R 31
+_ZTSN17QQmlEnginePrivate9DeletableE D 32
+_ZTSN17QQmlThreadPrivate10MainObjectE R 34
+_ZTSN20QQuickPackagePrivate9DataGuardE D 35
+_ZTSN24QQmlListModelWorkerAgent4SyncE D 34
+_ZTSN31QQuickWorkerScriptEnginePrivate12WorkerEngineE R 50
+_ZTSN3QV412CompiledData15CompilationUnitE R 38
+_ZTSN3QV412ConvertTempsE D 21
+_ZTSN3QV412DocumentImplE D 21
+_ZTSN3QV415EvalISelFactoryE D 24
+_ZTSN3QV424EvalInstructionSelectionE D 33
+_ZTSN3QV425MultiplyWrappedQObjectMapE R 34
+_ZTSN3QV42IR18AllocateStackSlotsE D 30
+_ZTSN3QV42IR9IRDecoderE R 20
+_ZTSN3QV42IR9IRPrinterE R 20
+_ZTSN3QV43JIT12RegAllocInfoE D 25
+_ZTSN3QV44Moth11ISelFactoryE R 25
+_ZTSN3QV44Moth15CompilationUnitE R 29
+_ZTSN3QV44Moth20InstructionSelectionE R 34
+_ZTSN3QV48NodeImplE D 16
+_ZTSN3WTF11PrintStreamE R 20
+_ZTSN3WTF15FilePrintStreamE R 24
+_ZTSN5QmlIR25ScriptDirectivesCollectorE R 36
+_ZTSN5QmlIR9IRBuilderE R 19
+_ZTSN5QmlIR9JSCodeGenE R 19
+_ZTSN6QQmlJS10DirectivesE D 22
+_ZTSN6QQmlJS14RuntimeCodegenE R 26
+_ZTSN6QQmlJS3AST10CaseClauseE R 26
+_ZTSN6QQmlJS3AST10ExpressionE R 26
+_ZTSN6QQmlJS3AST11CaseClausesE R 27
+_ZTSN6QQmlJS3AST11ElementListE R 27
+_ZTSN6QQmlJS3AST11IfStatementE R 27
+_ZTSN6QQmlJS3AST11TrueLiteralE R 27
+_ZTSN6QQmlJS3AST12ArgumentListE R 28
+_ZTSN6QQmlJS3AST12ArrayLiteralE R 28
+_ZTSN6QQmlJS3AST12FalseLiteralE R 28
+_ZTSN6QQmlJS3AST12ForStatementE R 28
+_ZTSN6QQmlJS3AST12FunctionBodyE R 28
+_ZTSN6QQmlJS3AST12PropertyNameE D 28
+_ZTSN6QQmlJS3AST12TryStatementE R 28
+_ZTSN6QQmlJS3AST13DefaultClauseE R 29
+_ZTSN6QQmlJS3AST13NewExpressionE R 29
+_ZTSN6QQmlJS3AST13NotExpressionE R 29
+_ZTSN6QQmlJS3AST13ObjectLiteralE R 29
+_ZTSN6QQmlJS3AST13RegExpLiteralE R 29
+_ZTSN6QQmlJS3AST13SourceElementE D 29
+_ZTSN6QQmlJS3AST13StatementListE R 29
+_ZTSN6QQmlJS3AST13StringLiteralE R 29
+_ZTSN6QQmlJS3AST13UiQualifiedIdE R 29
+_ZTSN6QQmlJS3AST13WithStatementE R 29
+_ZTSN6QQmlJS3AST14BreakStatementE R 30
+_ZTSN6QQmlJS3AST14CallExpressionE R 30
+_ZTSN6QQmlJS3AST14EmptyStatementE R 30
+_ZTSN6QQmlJS3AST14ExpressionNodeE R 30
+_ZTSN6QQmlJS3AST14NullExpressionE R 30
+_ZTSN6QQmlJS3AST14NumericLiteralE R 30
+_ZTSN6QQmlJS3AST14SourceElementsE R 30
+_ZTSN6QQmlJS3AST14ThisExpressionE R 30
+_ZTSN6QQmlJS3AST14ThrowStatementE R 30
+_ZTSN6QQmlJS3AST14UiArrayBindingE R 30
+_ZTSN6QQmlJS3AST14UiObjectMemberE R 30
+_ZTSN6QQmlJS3AST14UiPublicMemberE R 30
+_ZTSN6QQmlJS3AST14VoidExpressionE R 30
+_ZTSN6QQmlJS3AST14WhileStatementE R 30
+_ZTSN6QQmlJS3AST15ReturnStatementE R 31
+_ZTSN6QQmlJS3AST15SwitchStatementE R 31
+_ZTSN6QQmlJS3AST15TildeExpressionE R 31
+_ZTSN6QQmlJS3AST15UiObjectBindingE R 31
+_ZTSN6QQmlJS3AST15UiParameterListE R 31
+_ZTSN6QQmlJS3AST15UiScriptBindingE R 31
+_ZTSN6QQmlJS3AST15UiSourceElementE R 31
+_ZTSN6QQmlJS3AST16BinaryExpressionE R 32
+_ZTSN6QQmlJS3AST16DeleteExpressionE R 32
+_ZTSN6QQmlJS3AST16DoWhileStatementE R 32
+_ZTSN6QQmlJS3AST16ForEachStatementE R 32
+_ZTSN6QQmlJS3AST16NestedExpressionE R 32
+_ZTSN6QQmlJS3AST16TypeOfExpressionE R 32
+_ZTSN6QQmlJS3AST16UiHeaderItemListE R 32
+_ZTSN6QQmlJS3AST17ContinueStatementE R 33
+_ZTSN6QQmlJS3AST17DebuggerStatementE R 33
+_ZTSN6QQmlJS3AST17LabelledStatementE R 33
+_ZTSN6QQmlJS3AST17LocalForStatementE R 33
+_ZTSN6QQmlJS3AST17UiArrayMemberListE R 33
+_ZTSN6QQmlJS3AST17VariableStatementE R 33
+_ZTSN6QQmlJS3AST18FunctionExpressionE R 34
+_ZTSN6QQmlJS3AST18PropertyAssignmentE D 34
+_ZTSN6QQmlJS3AST18UiObjectDefinitionE R 34
+_ZTSN6QQmlJS3AST18UiObjectMemberListE R 34
+_ZTSN6QQmlJS3AST19ExpressionStatementE R 35
+_ZTSN6QQmlJS3AST19FormalParameterListE R 35
+_ZTSN6QQmlJS3AST19FunctionDeclarationE R 35
+_ZTSN6QQmlJS3AST19NewMemberExpressionE R 35
+_ZTSN6QQmlJS3AST19UiObjectInitializerE R 35
+_ZTSN6QQmlJS3AST19UiQualifiedPragmaIdE R 35
+_ZTSN6QQmlJS3AST19UnaryPlusExpressionE R 35
+_ZTSN6QQmlJS3AST19VariableDeclarationE R 35
+_ZTSN6QQmlJS3AST20IdentifierExpressionE R 36
+_ZTSN6QQmlJS3AST20PropertyGetterSetterE R 36
+_ZTSN6QQmlJS3AST20PropertyNameAndValueE R 36
+_ZTSN6QQmlJS3AST20UnaryMinusExpressionE R 36
+_ZTSN6QQmlJS3AST21ArrayMemberExpressionE R 37
+_ZTSN6QQmlJS3AST21ConditionalExpressionE R 37
+_ZTSN6QQmlJS3AST21FieldMemberExpressionE R 37
+_ZTSN6QQmlJS3AST21FunctionSourceElementE R 37
+_ZTSN6QQmlJS3AST21LocalForEachStatementE R 37
+_ZTSN6QQmlJS3AST22IdentifierPropertyNameE R 38
+_ZTSN6QQmlJS3AST22PreDecrementExpressionE R 38
+_ZTSN6QQmlJS3AST22PreIncrementExpressionE R 38
+_ZTSN6QQmlJS3AST22PropertyAssignmentListE R 38
+_ZTSN6QQmlJS3AST22StatementSourceElementE R 38
+_ZTSN6QQmlJS3AST23PostDecrementExpressionE R 39
+_ZTSN6QQmlJS3AST23PostIncrementExpressionE R 39
+_ZTSN6QQmlJS3AST23VariableDeclarationListE R 39
+_ZTSN6QQmlJS3AST25StringLiteralPropertyNameE R 41
+_ZTSN6QQmlJS3AST26NumericLiteralPropertyNameE R 42
+_ZTSN6QQmlJS3AST4NodeE R 19
+_ZTSN6QQmlJS3AST5BlockE R 20
+_ZTSN6QQmlJS3AST5CatchE R 20
+_ZTSN6QQmlJS3AST7ElisionE R 22
+_ZTSN6QQmlJS3AST7FinallyE R 22
+_ZTSN6QQmlJS3AST7ProgramE R 22
+_ZTSN6QQmlJS3AST7VisitorE R 22
+_ZTSN6QQmlJS3AST8UiImportE R 23
+_ZTSN6QQmlJS3AST8UiPragmaE R 23
+_ZTSN6QQmlJS3AST9CaseBlockE R 24
+_ZTSN6QQmlJS3AST9StatementE R 24
+_ZTSN6QQmlJS3AST9UiProgramE R 24
+_ZTSN6QQmlJS7Codegen13ScanFunctionsE R 33
+_ZTSN6QQmlJS7CodegenE R 18
+_ZTSN6QQmlJS7ManagedE D 18
+_ZTSN9QV8Engine9DeletableE D 23
+_ZTV10QQmlEngine D 120
+_ZTV10QQmlThread D 48
+_ZTV10QV4Include D 120
+_ZTV11QQmlBinding D 136
+_ZTV11QQmlCleanup D 40
+_ZTV11QQmlContext D 120
+_ZTV12QQmlDataBlob D 112
+_ZTV12QQmlPlatform D 120
+_ZTV12QQmlRefCount D 40
+_ZTV12QQmlTypeData D 136
+_ZTV13QQmlComponent D 144
+_ZTV13QQmlIncubator D 48
+_ZTV13QQmlListModel D 392
+_ZTV13QQmlValueType D 216
+_ZTV13QQuickPackage D 120
+_ZTV14QQmlExpression D 120
+_ZTV14QQmlPartsModel D 280
+_ZTV14QQmlQmldirData D 136
+_ZTV14QQmlScriptBlob D 136
+_ZTV14QQmlScriptData D 80
+_ZTV15QQmlApplication D 120
+_ZTV15QQmlBindPrivate D 32
+_ZTV15QQmlConnections D 184
+_ZTV15QQmlGuiProvider D 72
+_ZTV15QQmlListElement D 120
+_ZTV15QQmlObjectModel D 184
+_ZTV15QQmlPropertyMap D 128
+_ZTV15WorkerDataEvent D 32
+_ZTV15WorkerLoadEvent D 32
+_ZTV16QJSEnginePrivate D 32
+_ZTV16QQmlAdaptorModel D 40
+_ZTV16QQmlCustomParser D 48
+_ZTV16QQmlDMObjectData D 192
+_ZTV16QQmlFileSelector D 120
+_ZTV16QQmlInstantiator D 184
+_ZTV16QQmlParserStatus D 48
+_ZTV16QQmlTimerPrivate D 112
+_ZTV16WorkerErrorEvent D 32
+_ZTV17QQmlColorProvider D 96
+_ZTV17QQmlDelegateModel D 248
+_ZTV17QQmlEnginePrivate D 32
+_ZTV17QQmlInstanceModel D 184
+_ZTV17QQmlPropertyCache D 88
+_ZTV17QQmlThreadPrivate D 128
+_ZTV17QQmlTypeNameCache D 40
+_ZTV17QQmlVMEMetaObject D 72
+_ZTV17WorkerRemoveEvent D 32
+_ZTV18QAnimationGroupJob D 104
+_ZTV18QPauseAnimationJob D 80
+_ZTV18QQDMIncubationTask D 48
+_ZTV18QQmlAnimationTimer D 144
+_ZTV18QQmlBindingBinding D 136
+_ZTV18QQmlContextPrivate D 32
+_ZTV18QQmlOpenMetaObject D 120
+_ZTV18QQmlXMLHttpRequest D 120
+_ZTV18QQuickWorkerScript D 184
+_ZTV19ModelNodeMetaObject D 120
+_ZTV19QQmlAbstractBinding D 56
+_ZTV19QQmlExtensionPlugin D 184
+_ZTV19QQmlListModelParser D 48
+_ZTV19QQmlLoggingCategory D 184
+_ZTV19QQmlPropertyPrivate D 40
+_ZTV19QQmlProxyMetaObject D 72
+_ZTV20DynamicRoleModelNode D 120
+_ZTV20EmptyCompilationUnit D 80
+_ZTV20QQmlComponentPrivate D 96
+_ZTV20QQmlDelayedCallQueue D 120
+_ZTV20QQmlFileNetworkReply D 120
+_ZTV20QQmlTypeLoaderThread D 48
+_ZTV20QQmlTypeNotAvailable D 120
+_ZTV20QQuickPackagePrivate D 32
+_ZTV21QAbstractAnimationJob D 80
+_ZTV21QObjectPointerBinding D 144
+_ZTV21QQmlApplicationEngine D 120
+_ZTV21QQmlComponentAttached D 120
+_ZTV21QQmlConnectionsParser D 48
+_ZTV21QQmlDMCachedModelData D 160
+_ZTV21QQmlDelegateModelItem D 144
+_ZTV21QQmlExpressionPrivate D 104
+_ZTV21QQmlImageProviderBase D 48
+_ZTV21QQmlNonbindingBinding D 144
+_ZTV21QQmlValueTypeProvider D 128
+_ZTV21QQuickPackageAttached D 120
+_ZTV22QQmlApplicationPrivate D 32
+_ZTV22QQmlBoundSignalDeleter D 120
+_ZTV22QQmlComponentExtension D 32
+_ZTV22QQmlComponentIncubator D 48
+_ZTV22QQmlConnectionsPrivate D 32
+_ZTV22QQmlDMListAccessorData D 144
+_ZTV22QQmlDelegateModelGroup D 120
+_ZTV22QQmlDelegateModelParts D 120
+_ZTV22QQmlIRFunctionCleanser D 24
+_ZTV22QQmlObjectModelPrivate D 32
+_ZTV22QQmlOpenMetaObjectType D 96
+_ZTV22QQmlPropertyMapPrivate D 32
+_ZTV22QV4LocaleDataDeletable D 32
+_ZTV23QQmlFileSelectorPrivate D 32
+_ZTV23QQmlInstantiatorPrivate D 32
+_ZTV23QQmlObjectModelAttached D 120
+_ZTV23QQmlPropertyValueSource D 40
+_ZTV23VDMListDelegateDataType D 112
+_ZTV24QQmlDelegateModelPrivate D 104
+_ZTV24QQmlIncubationController D 40
+_ZTV24QQmlJavaScriptExpression D 56
+_ZTV24QQmlListModelWorkerAgent D 120
+_ZTV24QQmlVMEVariantQObjectPtr D 40
+_ZTV24QQuickWorkerScriptEngine D 128
+_ZTV24VDMModelDelegateDataType D 256
+_ZTV25QQmlBoundSignalExpression D 96
+_ZTV25QQmlDelegateModelAttached D 120
+_ZTV25QQmlInterceptorMetaObject D 72
+_ZTV25QQmlPropertyMapMetaObject D 120
+_ZTV25QQmlValueTypeProxyBinding D 56
+_ZTV25VDMObjectDelegateDataType D 184
+_ZTV26QParallelAnimationGroupJob D 104
+_ZTV26QQmlAdaptorModelEngineData D 32
+_ZTV26QQmlDMObjectDataMetaObject D 72
+_ZTV26QQmlExtensionPluginPrivate D 32
+_ZTV27QAnimationJobChangeListener D 64
+_ZTV27QQmlDMAbstractItemModelData D 160
+_ZTV27QQmlDelegateModelEngineData D 32
+_ZTV27QQmlFileSelectorInterceptor D 40
+_ZTV28QContinuingAnimationGroupJob D 104
+_ZTV28QQmlApplicationEnginePrivate D 32
+_ZTV28QQmlPropertyValueInterceptor D 48
+_ZTV28QSequentialAnimationGroupJob D 104
+_ZTV28VDMAbstractItemModelDataType D 320
+_ZTV29QQmlDelegateModelGroupEmitter D 64
+_ZTV29QQmlDelegateModelGroupPrivate D 32
+_ZTV29QQmlDelegateModelItemMetaType D 40
+_ZTV29QQmlThreadNotifierProxyObject D 120
+_ZTV30DynamicRoleModelNodeMetaObject D 120
+_ZTV31QQmlNetworkAccessManagerFactory D 40
+_ZTV31QQmlTypeLoaderNetworkReplyProxy D 120
+_ZTV31QQuickWorkerScriptEnginePrivate D 120
+_ZTV32QQmlDelegateModelPartsMetaObject D 120
+_ZTV35QQmlDelegateModelAttachedMetaObject D 112
+_ZTV8QQmlBind D 232
+_ZTV9QJSEngine D 120
+_ZTV9QQmlTimer D 184
+_ZTV9QV8Engine D 40
+_ZTVN12QQmlTypeData16TypeDataCallbackE D 48
+_ZTVN14QQmlTypeLoader4BlobE D 136
+_ZTVN15QQmlContextData12ContextGuardE D 40
+_ZTVN16QQmlAdaptorModel9AccessorsE D 112
+_ZTVN17QQmlThreadPrivate10MainObjectE D 120
+_ZTVN20QQuickPackagePrivate9DataGuardE D 40
+_ZTVN24QQmlListModelWorkerAgent4SyncE D 32
+_ZTVN31QQuickWorkerScriptEnginePrivate12WorkerEngineE D 40
+_ZTVN3QV412CompiledData15CompilationUnitE D 80
+_ZTVN3QV412ConvertTempsE D 40
+_ZTVN3QV412DocumentImplE D 72
+_ZTVN3QV415EvalISelFactoryE D 56
+_ZTVN3QV424EvalInstructionSelectionE D 48
+_ZTVN3QV425MultiplyWrappedQObjectMapE D 120
+_ZTVN3QV42IR18AllocateStackSlotsE D 40
+_ZTVN3QV42IR9IRDecoderE D 496
+_ZTVN3QV42IR9IRPrinterE D 216
+_ZTVN3QV43JIT12RegAllocInfoE D 504
+_ZTVN3QV44Moth11ISelFactoryE D 56
+_ZTVN3QV44Moth15CompilationUnitE D 80
+_ZTVN3QV44Moth20InstructionSelectionE D 560
+_ZTVN3QV48NodeImplE D 32
+_ZTVN3WTF11PrintStreamE D 48
+_ZTVN3WTF15FilePrintStreamE D 48
+_ZTVN5QmlIR25ScriptDirectivesCollectorE D 56
+_ZTVN5QmlIR9IRBuilderE D 1520
+_ZTVN5QmlIR9JSCodeGenE D 1552
+_ZTVN6QQmlJS10DirectivesE D 56
+_ZTVN6QQmlJS14RuntimeCodegenE D 1552
+_ZTVN6QQmlJS3AST10CaseClauseE D 88
+_ZTVN6QQmlJS3AST10ExpressionE D 88
+_ZTVN6QQmlJS3AST11CaseClausesE D 88
+_ZTVN6QQmlJS3AST11ElementListE D 88
+_ZTVN6QQmlJS3AST11IfStatementE D 88
+_ZTVN6QQmlJS3AST11TrueLiteralE D 88
+_ZTVN6QQmlJS3AST12ArgumentListE D 88
+_ZTVN6QQmlJS3AST12ArrayLiteralE D 88
+_ZTVN6QQmlJS3AST12FalseLiteralE D 88
+_ZTVN6QQmlJS3AST12ForStatementE D 88
+_ZTVN6QQmlJS3AST12FunctionBodyE D 88
+_ZTVN6QQmlJS3AST12TryStatementE D 88
+_ZTVN6QQmlJS3AST13DefaultClauseE D 88
+_ZTVN6QQmlJS3AST13NewExpressionE D 88
+_ZTVN6QQmlJS3AST13NotExpressionE D 88
+_ZTVN6QQmlJS3AST13ObjectLiteralE D 88
+_ZTVN6QQmlJS3AST13RegExpLiteralE D 88
+_ZTVN6QQmlJS3AST13StatementListE D 88
+_ZTVN6QQmlJS3AST13StringLiteralE D 88
+_ZTVN6QQmlJS3AST13UiQualifiedIdE D 88
+_ZTVN6QQmlJS3AST13WithStatementE D 88
+_ZTVN6QQmlJS3AST14BreakStatementE D 88
+_ZTVN6QQmlJS3AST14CallExpressionE D 88
+_ZTVN6QQmlJS3AST14EmptyStatementE D 88
+_ZTVN6QQmlJS3AST14ExpressionNodeE D 88
+_ZTVN6QQmlJS3AST14NullExpressionE D 88
+_ZTVN6QQmlJS3AST14NumericLiteralE D 88
+_ZTVN6QQmlJS3AST14SourceElementsE D 88
+_ZTVN6QQmlJS3AST14ThisExpressionE D 88
+_ZTVN6QQmlJS3AST14ThrowStatementE D 88
+_ZTVN6QQmlJS3AST14UiArrayBindingE D 88
+_ZTVN6QQmlJS3AST14UiObjectMemberE D 88
+_ZTVN6QQmlJS3AST14UiPublicMemberE D 88
+_ZTVN6QQmlJS3AST14VoidExpressionE D 88
+_ZTVN6QQmlJS3AST14WhileStatementE D 88
+_ZTVN6QQmlJS3AST15ReturnStatementE D 88
+_ZTVN6QQmlJS3AST15SwitchStatementE D 88
+_ZTVN6QQmlJS3AST15TildeExpressionE D 88
+_ZTVN6QQmlJS3AST15UiObjectBindingE D 88
+_ZTVN6QQmlJS3AST15UiParameterListE D 88
+_ZTVN6QQmlJS3AST15UiScriptBindingE D 88
+_ZTVN6QQmlJS3AST15UiSourceElementE D 88
+_ZTVN6QQmlJS3AST16BinaryExpressionE D 88
+_ZTVN6QQmlJS3AST16DeleteExpressionE D 88
+_ZTVN6QQmlJS3AST16DoWhileStatementE D 88
+_ZTVN6QQmlJS3AST16ForEachStatementE D 88
+_ZTVN6QQmlJS3AST16NestedExpressionE D 88
+_ZTVN6QQmlJS3AST16TypeOfExpressionE D 88
+_ZTVN6QQmlJS3AST16UiHeaderItemListE D 88
+_ZTVN6QQmlJS3AST17ContinueStatementE D 88
+_ZTVN6QQmlJS3AST17DebuggerStatementE D 88
+_ZTVN6QQmlJS3AST17LabelledStatementE D 88
+_ZTVN6QQmlJS3AST17LocalForStatementE D 88
+_ZTVN6QQmlJS3AST17UiArrayMemberListE D 88
+_ZTVN6QQmlJS3AST17VariableStatementE D 88
+_ZTVN6QQmlJS3AST18FunctionExpressionE D 88
+_ZTVN6QQmlJS3AST18UiObjectDefinitionE D 88
+_ZTVN6QQmlJS3AST18UiObjectMemberListE D 88
+_ZTVN6QQmlJS3AST19ExpressionStatementE D 88
+_ZTVN6QQmlJS3AST19FormalParameterListE D 88
+_ZTVN6QQmlJS3AST19FunctionDeclarationE D 88
+_ZTVN6QQmlJS3AST19NewMemberExpressionE D 88
+_ZTVN6QQmlJS3AST19UiObjectInitializerE D 88
+_ZTVN6QQmlJS3AST19UiQualifiedPragmaIdE D 88
+_ZTVN6QQmlJS3AST19UnaryPlusExpressionE D 88
+_ZTVN6QQmlJS3AST19VariableDeclarationE D 88
+_ZTVN6QQmlJS3AST20IdentifierExpressionE D 88
+_ZTVN6QQmlJS3AST20PropertyGetterSetterE D 88
+_ZTVN6QQmlJS3AST20PropertyNameAndValueE D 88
+_ZTVN6QQmlJS3AST20UnaryMinusExpressionE D 88
+_ZTVN6QQmlJS3AST21ArrayMemberExpressionE D 88
+_ZTVN6QQmlJS3AST21ConditionalExpressionE D 88
+_ZTVN6QQmlJS3AST21FieldMemberExpressionE D 88
+_ZTVN6QQmlJS3AST21FunctionSourceElementE D 88
+_ZTVN6QQmlJS3AST21LocalForEachStatementE D 88
+_ZTVN6QQmlJS3AST22IdentifierPropertyNameE D 96
+_ZTVN6QQmlJS3AST22PreDecrementExpressionE D 88
+_ZTVN6QQmlJS3AST22PreIncrementExpressionE D 88
+_ZTVN6QQmlJS3AST22PropertyAssignmentListE D 88
+_ZTVN6QQmlJS3AST22StatementSourceElementE D 88
+_ZTVN6QQmlJS3AST23PostDecrementExpressionE D 88
+_ZTVN6QQmlJS3AST23PostIncrementExpressionE D 88
+_ZTVN6QQmlJS3AST23VariableDeclarationListE D 88
+_ZTVN6QQmlJS3AST25StringLiteralPropertyNameE D 96
+_ZTVN6QQmlJS3AST26NumericLiteralPropertyNameE D 96
+_ZTVN6QQmlJS3AST4NodeE D 88
+_ZTVN6QQmlJS3AST5BlockE D 88
+_ZTVN6QQmlJS3AST5CatchE D 88
+_ZTVN6QQmlJS3AST7ElisionE D 88
+_ZTVN6QQmlJS3AST7FinallyE D 88
+_ZTVN6QQmlJS3AST7ProgramE D 88
+_ZTVN6QQmlJS3AST7VisitorE D 1520
+_ZTVN6QQmlJS3AST8UiImportE D 88
+_ZTVN6QQmlJS3AST8UiPragmaE D 88
+_ZTVN6QQmlJS3AST9CaseBlockE D 88
+_ZTVN6QQmlJS3AST9StatementE D 88
+_ZTVN6QQmlJS3AST9UiProgramE D 88
+_ZTVN6QQmlJS7Codegen13ScanFunctionsE D 1520
+_ZTVN6QQmlJS7CodegenE D 1552
 _ZThn112_N16QQmlTimerPrivate17animationFinishedEP21QAbstractAnimationJob T
 _ZThn112_N20QQmlComponentPrivate13typeDataReadyEP12QQmlTypeData T
 _ZThn112_N20QQmlComponentPrivate16typeDataProgressEP12QQmlTypeDatad T
@@ -4852,6 +5689,10 @@ _ZThn112_N21QQmlExpressionPrivateD1Ev T
 _ZThn112_N24QQmlDelegateModelPrivate16emitModelUpdatedERK13QQmlChangeSetb T
 _ZThn112_N24QQmlDelegateModelPrivateD0Ev T
 _ZThn112_N24QQmlDelegateModelPrivateD1Ev T
+_ZThn12_N8QQmlBind10classBeginEv T
+_ZThn12_N8QQmlBind17componentCompleteEv T
+_ZThn12_N8QQmlBindD0Ev T
+_ZThn12_N8QQmlBindD1Ev T
 _ZThn16_N13QQmlValueType15objectDestroyedEP7QObject T
 _ZThn16_N13QQmlValueType19toDynamicMetaObjectEP7QObject T
 _ZThn16_N13QQmlValueType8metaCallEP7QObjectN11QMetaObject4CallEiPPv T
@@ -4863,6 +5704,8 @@ _ZThn16_N14QQmlPartsModel16emitModelUpdatedERK13QQmlChangeSetb T
 _ZThn16_N14QQmlPartsModel17destroyingPackageEP13QQuickPackage T
 _ZThn16_N14QQmlPartsModelD0Ev T
 _ZThn16_N14QQmlPartsModelD1Ev T
+_ZThn16_N14QQmlScriptDataD0Ev T
+_ZThn16_N14QQmlScriptDataD1Ev T
 _ZThn16_N15QQmlConnections10classBeginEv T
 _ZThn16_N15QQmlConnections17componentCompleteEv T
 _ZThn16_N15QQmlConnectionsD0Ev T
@@ -4905,16 +5748,83 @@ _ZThn24_N8QQmlBind10classBeginEv T
 _ZThn24_N8QQmlBind17componentCompleteEv T
 _ZThn24_N8QQmlBindD0Ev T
 _ZThn24_N8QQmlBindD1Ev T
+_ZThn28_N35QQmlDelegateModelAttachedMetaObjectD0Ev T
+_ZThn28_N35QQmlDelegateModelAttachedMetaObjectD1Ev T
 _ZThn32_N14QQmlScriptDataD0Ev T
 _ZThn32_N14QQmlScriptDataD1Ev T
+_ZThn40_N11QQmlBinding10setEnabledEb6QFlagsIN16QQmlPropertyData9WriteFlagEE T
+_ZThn40_N11QQmlBindingD0Ev T
+_ZThn40_N11QQmlBindingD1Ev T
+_ZThn40_N25QQmlBoundSignalExpressionD0Ev T
+_ZThn40_N25QQmlBoundSignalExpressionD1Ev T
+_ZThn40_NK11QQmlBinding10expressionEv T
 _ZThn56_N35QQmlDelegateModelAttachedMetaObjectD0Ev T
 _ZThn56_N35QQmlDelegateModelAttachedMetaObjectD1Ev T
+_ZThn64_N16QQmlTimerPrivate17animationFinishedEP21QAbstractAnimationJob T
+_ZThn64_N20QQmlComponentPrivate13typeDataReadyEP12QQmlTypeData T
+_ZThn64_N20QQmlComponentPrivate16typeDataProgressEP12QQmlTypeDatad T
+_ZThn64_N21QQmlExpressionPrivate17expressionChangedEv T
+_ZThn64_N21QQmlExpressionPrivate20expressionIdentifierEv T
+_ZThn64_N21QQmlExpressionPrivateD0Ev T
+_ZThn64_N21QQmlExpressionPrivateD1Ev T
+_ZThn64_N24QQmlDelegateModelPrivate16emitModelUpdatedERK13QQmlChangeSetb T
+_ZThn64_N24QQmlDelegateModelPrivateD0Ev T
+_ZThn64_N24QQmlDelegateModelPrivateD1Ev T
 _ZThn80_N11QQmlBinding10setEnabledEb6QFlagsIN16QQmlPropertyData9WriteFlagEE T
 _ZThn80_N11QQmlBindingD0Ev T
 _ZThn80_N11QQmlBindingD1Ev T
 _ZThn80_N25QQmlBoundSignalExpressionD0Ev T
 _ZThn80_N25QQmlBoundSignalExpressionD1Ev T
 _ZThn80_NK11QQmlBinding10expressionEv T
+_ZThn8_N13QQmlValueType15objectDestroyedEP7QObject T
+_ZThn8_N13QQmlValueType19toDynamicMetaObjectEP7QObject T
+_ZThn8_N13QQmlValueType8metaCallEP7QObjectN11QMetaObject4CallEiPPv T
+_ZThn8_N13QQmlValueTypeD0Ev T
+_ZThn8_N13QQmlValueTypeD1Ev T
+_ZThn8_N14QQmlPartsModel11initPackageEiP13QQuickPackage T
+_ZThn8_N14QQmlPartsModel14createdPackageEiP13QQuickPackage T
+_ZThn8_N14QQmlPartsModel16emitModelUpdatedERK13QQmlChangeSetb T
+_ZThn8_N14QQmlPartsModel17destroyingPackageEP13QQuickPackage T
+_ZThn8_N14QQmlPartsModelD0Ev T
+_ZThn8_N14QQmlPartsModelD1Ev T
+_ZThn8_N15QQmlConnections10classBeginEv T
+_ZThn8_N15QQmlConnections17componentCompleteEv T
+_ZThn8_N15QQmlConnectionsD0Ev T
+_ZThn8_N15QQmlConnectionsD1Ev T
+_ZThn8_N16QQmlInstantiator10classBeginEv T
+_ZThn8_N16QQmlInstantiator17componentCompleteEv T
+_ZThn8_N16QQmlInstantiatorD0Ev T
+_ZThn8_N16QQmlInstantiatorD1Ev T
+_ZThn8_N17QQmlDelegateModel10classBeginEv T
+_ZThn8_N17QQmlDelegateModel17componentCompleteEv T
+_ZThn8_N17QQmlDelegateModelD0Ev T
+_ZThn8_N17QQmlDelegateModelD1Ev T
+_ZThn8_N17QQmlPropertyCache5clearEv T
+_ZThn8_N17QQmlPropertyCacheD0Ev T
+_ZThn8_N17QQmlPropertyCacheD1Ev T
+_ZThn8_N18QQuickWorkerScript10classBeginEv T
+_ZThn8_N18QQuickWorkerScript17componentCompleteEv T
+_ZThn8_N18QQuickWorkerScriptD0Ev T
+_ZThn8_N18QQuickWorkerScriptD1Ev T
+_ZThn8_N19QQmlExtensionPlugin16initializeEngineEP10QQmlEnginePKc T
+_ZThn8_N19QQmlExtensionPluginD0Ev T
+_ZThn8_N19QQmlExtensionPluginD1Ev T
+_ZThn8_N19QQmlLoggingCategory10classBeginEv T
+_ZThn8_N19QQmlLoggingCategory17componentCompleteEv T
+_ZThn8_N19QQmlLoggingCategoryD0Ev T
+_ZThn8_N19QQmlLoggingCategoryD1Ev T
+_ZThn8_N22QQmlOpenMetaObjectType5clearEv T
+_ZThn8_N22QQmlOpenMetaObjectTypeD0Ev T
+_ZThn8_N22QQmlOpenMetaObjectTypeD1Ev T
+_ZThn8_N3QV44Moth20InstructionSelection18backendCompileStepEv T
+_ZThn8_N3QV44Moth20InstructionSelection3runEi T
+_ZThn8_N3QV44Moth20InstructionSelectionD0Ev T
+_ZThn8_N3QV44Moth20InstructionSelectionD1Ev T
+_ZThn8_N8QQmlBind9setTargetERK12QQmlProperty T
+_ZThn8_N8QQmlBindD0Ev T
+_ZThn8_N8QQmlBindD1Ev T
+_ZThn8_N9QQmlTimer10classBeginEv T
+_ZThn8_N9QQmlTimer17componentCompleteEv T
 _Zls6QDebugPK21QAbstractAnimationJob T
 _Zls6QDebugRK13QQmlChangeSet T
 _Zls6QDebugRK18QQmlListCompositor T
@@ -4934,24 +5844,3 @@ qmlWTFReportBacktrace T
 qt_v4ResolvePendingBreakpointsHook T
 qt_v4StackTrace T
 qt_v4TriggeredBreakpointHook T
-
-# manually added typeinfo and vtable symbols
-
-_ZTI11QQmlBinding V
-_ZTI13QQmlIncubator V
-_ZTI15QQmlApplication V
-_ZTI15QQmlGuiProvider V
-_ZTI16QQmlParserStatus V
-_ZTI17QQmlColorProvider V
-_ZTI17QQmlVMEMetaObject V
-_ZTI19QQmlAbstractBinding V
-_ZTI19QQmlExtensionPlugin V
-_ZTI21QAbstractAnimationJob V
-_ZTI21QQmlImageProviderBase V
-_ZTI21QQmlValueTypeProvider V
-_ZTI23QQmlPropertyValueSource V
-_ZTI24QQmlIncubationController V
-_ZTI26QParallelAnimationGroupJob V
-_ZTI27QAnimationJobChangeListener V
-_ZTI28QQmlPropertyValueInterceptor V
-_ZTV15QQmlApplication V
