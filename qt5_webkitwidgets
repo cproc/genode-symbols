@@ -685,7 +685,7 @@ _ZTSN7WebCore18QtFallbackWebPopupE R 31
 _ZTSN7WebCore25PageClientQGraphicsWidgetE R 38
 _ZTV13QWebInspector D 520
 _ZTV14QWebPageClient D 224
-_ZTV15QWebPagePrivate D 488
+_ZTV15QWebPagePrivate D 496
 _ZTV15QWebUndoCommand D 64
 _ZTV15QWebViewPrivate D 32
 _ZTV16QGraphicsWebView D 856

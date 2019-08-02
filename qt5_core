@@ -6869,7 +6869,7 @@ _ZTV12QFilePrivate D 64
 _ZTV12QGb2312Codec D 72
 _ZTV12QLatin1Codec D 72
 _ZTV13QDaemonThread D 128
-_ZTV13QFSFileEngine D 304
+_ZTV13QFSFileEngine D 312
 _ZTV13QFileSelector D 120
 _ZTV13QGb18030Codec D 72
 _ZTV13QHistoryState D 136
@@ -6935,7 +6935,7 @@ _ZTV18QPropertyAnimation D 168
 _ZTV18QThreadPoolPrivate D 32
 _ZTV18QTranslatorPrivate D 32
 _ZTV18QTzTimeZonePrivate D 200
-_ZTV19QAbstractFileEngine D 304
+_ZTV19QAbstractFileEngine D 312
 _ZTV19QAbstractProxyModel D 432
 _ZTV19QAbstractTableModel D 392
 _ZTV19QAbstractTransition D 136
@@ -6943,7 +6943,7 @@ _ZTV19QFutureCallOutEvent D 32
 _ZTV19QIdentityProxyModel D 432
 _ZTV19QItemSelectionModel D 168
 _ZTV19QMimeBinaryProvider D 120
-_ZTV19QResourceFileEngine D 312
+_ZTV19QResourceFileEngine D 320
 _ZTV19QUnhandledException D 56
 _ZTV19QUtcTimeZonePrivate D 200
 _ZTV20QDeferredDeleteEvent D 32
@@ -6955,7 +6955,7 @@ _ZTV20QFutureInterfaceBase D 32
 _ZTV20QHistoryStatePrivate D 32
 _ZTV20QSignalMapperPrivate D 32
 _ZTV20QStateMachinePrivate D 104
-_ZTV20QTemporaryFileEngine D 304
+_ZTV20QTemporaryFileEngine D 312
 _ZTV21QAbstractStatePrivate D 32
 _ZTV21QDeviceClosedNotifier D 120
 _ZTV21QFSFileEngineIterator D 72

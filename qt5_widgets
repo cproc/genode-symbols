@@ -11813,7 +11813,7 @@ _ZTV18QWidgetTextControl D 200
 _ZTV18QWizardPagePrivate D 128
 _ZTV19QAbstractScrollArea D 552
 _ZTV19QActionGroupPrivate D 32
-_ZTV19QApplicationPrivate D 120
+_ZTV19QApplicationPrivate D 128
 _ZTV19QButtonGroupPrivate D 32
 _ZTV19QColorDialogPrivate D 160
 _ZTV19QColumnViewDelegate D 232
@@ -11865,7 +11865,7 @@ _ZTV20QTableWidgetMimeData D 144
 _ZTV20QUnsortedModelEngine D 48
 _ZTV20QWidgetActionPrivate D 32
 _ZTV20QWidgetResizeHandler D 120
-_ZTV20QWidgetWindowPrivate D 56
+_ZTV20QWidgetWindowPrivate D 64
 _ZTV20QWindowsStylePrivate D 32
 _ZTV20SequentialAnchorData D 40
 _ZTV21QAbstractItemDelegate D 200
