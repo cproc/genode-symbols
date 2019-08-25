@@ -2,8 +2,8 @@ _ZN14QtQuick2Plugin11qt_metacallEN11QMetaObject4CallEiPPv T
 _ZN14QtQuick2Plugin11qt_metacastEPKc T
 _ZN14QtQuick2Plugin16staticMetaObjectE D 48
 _ZNK14QtQuick2Plugin10metaObjectEv T
-_ZTI14QtQuick2Plugin D 24
-_ZTS14QtQuick2Plugin R 17
-_ZTV14QtQuick2Plugin D 184
+_ZTI14QtQuick2Plugin V
+_ZTS14QtQuick2Plugin V
+_ZTV14QtQuick2Plugin V
 qt_plugin_instance T
 qt_plugin_query_metadata T

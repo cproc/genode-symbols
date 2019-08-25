@@ -74,6 +74,7 @@ _ZN12QSqlDatabase11setHostNameERK7QString T
 _ZN12QSqlDatabase11setPasswordERK7QString T
 _ZN12QSqlDatabase11setUserNameERK7QString T
 _ZN12QSqlDatabase11transactionEv T
+_ZN12QSqlDatabase13cloneDatabaseERK7QStringS2_ T
 _ZN12QSqlDatabase13cloneDatabaseERKS_RK7QString T
 _ZN12QSqlDatabase14removeDatabaseERK7QString T
 _ZN12QSqlDatabase15connectionNamesEv T
@@ -232,6 +233,9 @@ _ZN21QSqlTableModelPrivate15revertCachedRowEi T
 _ZN21QSqlTableModelPrivate25initRecordAndPrimaryIndexEv T
 _ZN21QSqlTableModelPrivate4execERK7QStringbRK10QSqlRecordS5_ T
 _ZN21QSqlTableModelPrivate5clearEv T
+_ZN21QSqlTableModelPrivateD0Ev T
+_ZN21QSqlTableModelPrivateD1Ev T
+_ZN21QSqlTableModelPrivateD2Ev T
 _ZN23QSqlCachedResultPrivate10revertLastEv T
 _ZN23QSqlCachedResultPrivate4initEib T
 _ZN23QSqlCachedResultPrivate7cleanupEv T
@@ -284,6 +288,7 @@ _ZN9QSqlField11setReadOnlyEb T
 _ZN9QSqlField12setAutoValueEb T
 _ZN9QSqlField12setGeneratedEb T
 _ZN9QSqlField12setPrecisionEi T
+_ZN9QSqlField12setTableNameERK7QString T
 _ZN9QSqlField15setDefaultValueERK8QVariant T
 _ZN9QSqlField17setRequiredStatusENS_14RequiredStatusE T
 _ZN9QSqlField5clearEv T
@@ -293,8 +298,10 @@ _ZN9QSqlField7setTypeEN8QVariant4TypeE T
 _ZN9QSqlField8setValueERK8QVariant T
 _ZN9QSqlField9setLengthEi T
 _ZN9QSqlFieldC1ERK7QStringN8QVariant4TypeE T
+_ZN9QSqlFieldC1ERK7QStringN8QVariant4TypeES2_ T
 _ZN9QSqlFieldC1ERKS_ T
 _ZN9QSqlFieldC2ERK7QStringN8QVariant4TypeE T
+_ZN9QSqlFieldC2ERK7QStringN8QVariant4TypeES2_ T
 _ZN9QSqlFieldC2ERKS_ T
 _ZN9QSqlFieldD1Ev T
 _ZN9QSqlFieldD2Ev T
@@ -421,6 +428,7 @@ _ZNK14QSqlQueryModel6recordEi T
 _ZNK14QSqlQueryModel6recordEv T
 _ZNK14QSqlQueryModel8rowCountERK11QModelIndex T
 _ZNK14QSqlQueryModel9lastErrorEv T
+_ZNK14QSqlQueryModel9roleNamesEv T
 _ZNK14QSqlTableModel10fieldIndexERK7QString T
 _ZNK14QSqlTableModel10headerDataEiN2Qt11OrientationEi T
 _ZNK14QSqlTableModel10metaObjectEv T
@@ -482,6 +490,7 @@ _ZNK9QSqlField6lengthEv T
 _ZNK9QSqlField6typeIDEv T
 _ZNK9QSqlField7isValidEv T
 _ZNK9QSqlField9precisionEv T
+_ZNK9QSqlField9tableNameEv T
 _ZNK9QSqlFieldeqERKS_ T
 _ZNK9QSqlIndex11createFieldEiRK7QStringb T
 _ZNK9QSqlIndex12isDescendingEi T
@@ -507,54 +516,54 @@ _ZNK9QSqlQuery8isActiveEv T
 _ZNK9QSqlQuery8isSelectEv T
 _ZNK9QSqlQuery9lastErrorEv T
 _ZNK9QSqlQuery9lastQueryEv T
-_ZTI10QSqlDriver D 24
-_ZTI10QSqlResult D 16
-_ZTI14QSqlNullDriver D 24
-_ZTI14QSqlNullResult D 24
-_ZTI14QSqlQueryModel D 24
-_ZTI14QSqlTableModel D 24
-_ZTI16QSqlCachedResult D 24
-_ZTI16QSqlDriverPlugin D 24
-_ZTI17QSqlDriverPrivate D 24
-_ZTI17QSqlResultPrivate D 16
-_ZTI18QRelatedTableModel D 24
-_ZTI21QSqlQueryModelPrivate D 24
-_ZTI21QSqlTableModelPrivate D 24
-_ZTI23QSqlCachedResultPrivate D 24
-_ZTI24QSqlRelationalTableModel D 24
-_ZTI31QSqlRelationalTableModelPrivate D 24
-_ZTS10QSqlDriver R 13
-_ZTS10QSqlResult R 13
-_ZTS14QSqlNullDriver D 17
-_ZTS14QSqlNullResult D 17
-_ZTS14QSqlQueryModel R 17
-_ZTS14QSqlTableModel R 17
-_ZTS16QSqlCachedResult R 19
-_ZTS16QSqlDriverPlugin R 19
-_ZTS17QSqlDriverPrivate D 20
-_ZTS17QSqlResultPrivate R 20
-_ZTS18QRelatedTableModel R 21
-_ZTS21QSqlQueryModelPrivate R 24
-_ZTS21QSqlTableModelPrivate R 24
-_ZTS23QSqlCachedResultPrivate D 26
-_ZTS24QSqlRelationalTableModel R 27
-_ZTS31QSqlRelationalTableModelPrivate R 34
-_ZTV10QSqlDriver D 312
-_ZTV10QSqlResult D 264
-_ZTV14QSqlNullDriver D 312
-_ZTV14QSqlNullResult D 264
-_ZTV14QSqlQueryModel D 416
-_ZTV14QSqlTableModel D 512
-_ZTV16QSqlCachedResult D 272
-_ZTV16QSqlDriverPlugin D 128
-_ZTV17QSqlDriverPrivate D 32
-_ZTV17QSqlResultPrivate D 40
-_ZTV18QRelatedTableModel D 512
-_ZTV21QSqlQueryModelPrivate D 32
-_ZTV21QSqlTableModelPrivate D 56
-_ZTV23QSqlCachedResultPrivate D 40
-_ZTV24QSqlRelationalTableModel D 528
-_ZTV31QSqlRelationalTableModelPrivate D 56
+_ZTI10QSqlDriver V
+_ZTI10QSqlResult V
+_ZTI14QSqlNullDriver V
+_ZTI14QSqlNullResult V
+_ZTI14QSqlQueryModel V
+_ZTI14QSqlTableModel V
+_ZTI16QSqlCachedResult V
+_ZTI16QSqlDriverPlugin V
+_ZTI17QSqlDriverPrivate V
+_ZTI17QSqlResultPrivate V
+_ZTI18QRelatedTableModel V
+_ZTI21QSqlQueryModelPrivate V
+_ZTI21QSqlTableModelPrivate V
+_ZTI23QSqlCachedResultPrivate V
+_ZTI24QSqlRelationalTableModel V
+_ZTI31QSqlRelationalTableModelPrivate V
+_ZTS10QSqlDriver V
+_ZTS10QSqlResult V
+_ZTS14QSqlNullDriver V
+_ZTS14QSqlNullResult V
+_ZTS14QSqlQueryModel V
+_ZTS14QSqlTableModel V
+_ZTS16QSqlCachedResult V
+_ZTS16QSqlDriverPlugin V
+_ZTS17QSqlDriverPrivate V
+_ZTS17QSqlResultPrivate V
+_ZTS18QRelatedTableModel V
+_ZTS21QSqlQueryModelPrivate V
+_ZTS21QSqlTableModelPrivate V
+_ZTS23QSqlCachedResultPrivate V
+_ZTS24QSqlRelationalTableModel V
+_ZTS31QSqlRelationalTableModelPrivate V
+_ZTV10QSqlDriver V
+_ZTV10QSqlResult V
+_ZTV14QSqlNullDriver V
+_ZTV14QSqlNullResult V
+_ZTV14QSqlQueryModel V
+_ZTV14QSqlTableModel V
+_ZTV16QSqlCachedResult V
+_ZTV16QSqlDriverPlugin V
+_ZTV17QSqlDriverPrivate V
+_ZTV17QSqlResultPrivate V
+_ZTV18QRelatedTableModel V
+_ZTV21QSqlQueryModelPrivate V
+_ZTV21QSqlTableModelPrivate V
+_ZTV23QSqlCachedResultPrivate V
+_ZTV24QSqlRelationalTableModel V
+_ZTV31QSqlRelationalTableModelPrivate V
 _Zls6QDebugRK10QSqlRecord T
 _Zls6QDebugRK12QSqlDatabase T
 _Zls6QDebugRK9QSqlError T
