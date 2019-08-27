@@ -20,9 +20,11 @@ _ZNK12QJpegHandler14supportsOptionEN15QImageIOHandler11ImageOptionE T
 _ZNK12QJpegHandler4nameEv T
 _ZNK12QJpegHandler6optionEN15QImageIOHandler11ImageOptionE T
 _ZNK12QJpegHandler7canReadEv T
-_ZTI11QJpegPlugin V
-_ZTI12QJpegHandler V
-_ZTS11QJpegPlugin V
-_ZTS12QJpegHandler V
-_ZTV11QJpegPlugin V
-_ZTV12QJpegHandler V
+_ZTI11QJpegPlugin D 24
+_ZTI12QJpegHandler D 24
+_ZTS11QJpegPlugin R 14
+_ZTS12QJpegHandler R 15
+_ZTV11QJpegPlugin D 136
+_ZTV12QJpegHandler D 144
+__gnu_Unwind_Find_exidx T
+dl_unwind_find_exidx W

@@ -2,8 +2,10 @@ _ZN20QtQuick2WindowPlugin11qt_metacallEN11QMetaObject4CallEiPPv T
 _ZN20QtQuick2WindowPlugin11qt_metacastEPKc T
 _ZN20QtQuick2WindowPlugin16staticMetaObjectE D 48
 _ZNK20QtQuick2WindowPlugin10metaObjectEv T
-_ZTI20QtQuick2WindowPlugin V
-_ZTS20QtQuick2WindowPlugin V
-_ZTV20QtQuick2WindowPlugin V
+_ZTI20QtQuick2WindowPlugin D 24
+_ZTS20QtQuick2WindowPlugin R 23
+_ZTV20QtQuick2WindowPlugin D 184
+__gnu_Unwind_Find_exidx T
+dl_unwind_find_exidx W
 qt_plugin_instance T
 qt_plugin_query_metadata T
